@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/Users/amitkumar/AndroidStudioProjects/Scanner/CustomBrowser/src/main/res/values/colors.xml -->
+    <eat-comment />
+
+    <color name="background">#f8f8f8</color>
+    <color name="border">#d4dee2</color>
+    <color name="errorRed">#e40000</color>
+    <color name="otpColor">#5c6bac</color>
+    <color name="otpDisabledColor">#7d88b3</color>
+    <color name="otpDisabledTextColor">#bec4d9</color>
+    <color name="textColor">#8f8d8d</color>
+    <!-- From: file:/Users/amitkumar/AndroidStudioProjects/Scanner/CustomBrowser/src/main/res/values/dimens.xml -->
+    <eat-comment />
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="eight">8dp</dimen>
+    <dimen name="eighteen">18dp</dimen>
+    <dimen name="four">4dp</dimen>
+    <dimen name="fourteen">14dp</dimen>
+    <dimen name="fourteenScaled">14sp</dimen>
+    <dimen name="sixteen">16dp</dimen>
+    <dimen name="sixteenScaled">16sp</dimen>
+    <dimen name="twelve">12dp</dimen>
+    <dimen name="two">2dp</dimen>
+    <!-- From: file:/Users/amitkumar/AndroidStudioProjects/Scanner/CustomBrowser/src/main/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="approve_otp">APPROVE OTP</string>
+    <string name="authenticate_with">Authenticate With</string>
+    <string name="card_not_registered_with_pin">Your card has not been registered for PIN yet. Do you want to continue with PIN?</string>
+    <string name="incorrect_otp">INCORRECT OTP</string>
+    <string name="otp">SMS OTP</string>
+    <string name="pin">PASSWORD</string>
+    <string name="regenerate_otp">REGENERATE OTP</string>
+    <string name="register_for_pin">REGISTER FOR PIN</string>
+    <string name="use_sms_otp">USE SMS OTP</string>
+    <string name="waiting_for_otp">WAITING FOR OTP</string>
+    <!-- From: file:/Users/amitkumar/AndroidStudioProjects/Scanner/CustomBrowser/src/main/res/values/styles.xml -->
+    <eat-comment />
+
+    <style name="approve_otp" parent="android:Widget.Button">
+        <item name="android:paddingTop">@dimen/eight</item>
+        <item name="android:paddingBottom">@dimen/eight</item>
+        <item name="android:paddingRight">@dimen/sixteen</item>
+        <item name="android:paddingLeft">@dimen/sixteen</item>
+        <item name="android:textColor">@color/otp_approve_button_color</item>
+        <item name="android:textSize">@dimen/fourteenScaled</item>
+    </style>
+
+</resources>

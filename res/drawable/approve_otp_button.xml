@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false">
+        <shape>
+            <solid android:color="@color/otpDisabledColor" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <solid android:color="@color/otpColor" />
+        </shape>
+    </item>
+</selector><!-- From: file:/Users/amitkumar/AndroidStudioProjects/Scanner/CustomBrowser/src/main/res/drawable/approve_otp_button.xml -->
