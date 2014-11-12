@@ -37,14 +37,6 @@
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:layout_marginBottom="@dimen/eight" />
 
-        <Button
-            android:id="@+id/retry"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/approve_otp_button"
-            style="@style/approve_otp"
-            android:text="@string/regenerate_otp" />
-
         <TextView
             android:id="@+id/otp_sms"
             android:layout_width="wrap_content"
@@ -62,6 +54,24 @@
             android:background="@drawable/approve_otp_button"
             style="@style/approve_otp"
             android:text="@string/approve_otp" />
+
+
+        <View
+            android:id="@+id/retry_border"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/border"
+            android:visibility="gone"
+            android:layout_marginTop="@dimen/four" />
+
+        <TextView
+            android:id="@+id/retry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/otpColor"
+            android:layout_marginTop="@dimen/eight"
+            android:visibility="gone"
+            android:text="@string/regenerate_otp" />
 
     </LinearLayout>
 

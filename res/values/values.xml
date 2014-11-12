@@ -7,7 +7,7 @@
     <color name="background">#f8f8f8</color>
     <color name="border">#d4dee2</color>
     <color name="errorRed">#e40000</color>
-    <color name="otpColor">#5c6bac</color>
+    <color name="otpColor">#071d74</color>
     <color name="otpDisabledColor">#7d88b3</color>
     <color name="otpDisabledTextColor">#bec4d9</color>
     <color name="textColor">#8f8d8d</color>
@@ -42,10 +42,10 @@
     <eat-comment />
 
     <style name="approve_otp" parent="android:Widget.Button">
-        <item name="android:paddingTop">@dimen/eight</item>
-        <item name="android:paddingBottom">@dimen/eight</item>
-        <item name="android:paddingRight">@dimen/sixteen</item>
-        <item name="android:paddingLeft">@dimen/sixteen</item>
+        <item name="android:paddingTop">@dimen/four</item>
+        <item name="android:paddingBottom">@dimen/four</item>
+        <item name="android:paddingRight">@dimen/twelve</item>
+        <item name="android:paddingLeft">@dimen/twelve</item>
         <item name="android:textColor">@color/otp_approve_button_color</item>
         <item name="android:textSize">@dimen/fourteenScaled</item>
     </style>
