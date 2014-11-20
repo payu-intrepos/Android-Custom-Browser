@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <!-- From: file:/Users/amitkumar/AndroidStudioProjects/Scanner/CustomBrowser/src/main/res/values/colors.xml -->
-    <eat-comment />
-
+    <eat-comment/>
     <color name="background">#f8f8f8</color>
     <color name="border">#d4dee2</color>
     <color name="errorRed">#e40000</color>
@@ -12,8 +10,7 @@
     <color name="otpDisabledTextColor">#bec4d9</color>
     <color name="textColor">#8f8d8d</color>
     <!-- From: file:/Users/amitkumar/AndroidStudioProjects/Scanner/CustomBrowser/src/main/res/values/dimens.xml -->
-    <eat-comment />
-
+    <eat-comment/>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="eight">8dp</dimen>
@@ -26,8 +23,7 @@
     <dimen name="twelve">12dp</dimen>
     <dimen name="two">2dp</dimen>
     <!-- From: file:/Users/amitkumar/AndroidStudioProjects/Scanner/CustomBrowser/src/main/res/values/strings.xml -->
-    <eat-comment />
-
+    <eat-comment/>
     <string name="approve_otp">APPROVE OTP</string>
     <string name="authenticate_with">Authenticate With</string>
     <string name="card_not_registered_with_pin">Your card has not been registered for PIN yet. Do you want to continue with PIN?</string>
@@ -39,8 +35,7 @@
     <string name="use_sms_otp">USE SMS OTP</string>
     <string name="waiting_for_otp">WAITING FOR OTP</string>
     <!-- From: file:/Users/amitkumar/AndroidStudioProjects/Scanner/CustomBrowser/src/main/res/values/styles.xml -->
-    <eat-comment />
-
+    <eat-comment/>
     <style name="approve_otp" parent="android:Widget.Button">
         <item name="android:paddingTop">@dimen/four</item>
         <item name="android:paddingBottom">@dimen/four</item>
@@ -49,5 +44,4 @@
         <item name="android:textColor">@color/otp_approve_button_color</item>
         <item name="android:textSize">@dimen/fourteenScaled</item>
     </style>
-
 </resources>
