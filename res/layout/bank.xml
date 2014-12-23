@@ -14,4 +14,4 @@
         android:id="@+id/help_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
-</LinearLayout><!-- From: file:/Users/amitkumar/AndroidStudioProjects/Scanner/CustomBrowser/src/main/res/layout/bank.xml -->
+</LinearLayout><!-- From: file:/Users/amitkumar/AndroidStudioProjects/Scanner/CustomBrowser/res/layout/bank.xml -->

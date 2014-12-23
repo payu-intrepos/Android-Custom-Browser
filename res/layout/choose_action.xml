@@ -49,7 +49,7 @@
                 android:gravity="center"
                 android:textSize="@dimen/fourteenScaled"
                 android:layout_weight="1"
-                android:text="@string/pin"
+                android:text="@string/password"
                 android:textColor="@color/textColor"
                 android:drawablePadding="@dimen/four"
                 android:textStyle="bold"
@@ -62,7 +62,7 @@
                 android:gravity="center"
                 android:textSize="@dimen/fourteenScaled"
                 android:layout_weight="1"
-                android:text="@string/otp"
+                android:text="@string/sms_otp"
                 android:textColor="@color/textColor"
                 android:drawablePadding="@dimen/four"
                 android:textStyle="bold"
@@ -72,4 +72,4 @@
 
     </LinearLayout>
 
-</LinearLayout><!-- From: file:/Users/amitkumar/AndroidStudioProjects/Scanner/CustomBrowser/src/main/res/layout/choose_action.xml -->
+</LinearLayout><!-- From: file:/Users/amitkumar/AndroidStudioProjects/Scanner/CustomBrowser/res/layout/choose_action.xml -->
