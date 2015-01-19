@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/Users/amitkumar/Downloads/payu/PayuTestApp/CustomBrowser/res/values/colors.xml -->
+    <!-- From: file:/Users/amitkumar/AndroidStudioProjects/Scanner/CustomBrowser/res/values/colors.xml -->
     <eat-comment/>
     <color name="background">#f8f8f8</color>
     <color name="border">#d4dee2</color>
@@ -9,7 +9,7 @@
     <color name="otpDisabledColor">#7d88b3</color>
     <color name="otpDisabledTextColor">#bec4d9</color>
     <color name="textColor">#8f8d8d</color>
-    <!-- From: file:/Users/amitkumar/Downloads/payu/PayuTestApp/CustomBrowser/res/values/dimens.xml -->
+    <!-- From: file:/Users/amitkumar/AndroidStudioProjects/Scanner/CustomBrowser/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
@@ -22,10 +22,11 @@
     <dimen name="sixteenScaled">16sp</dimen>
     <dimen name="twelve">12dp</dimen>
     <dimen name="two">2dp</dimen>
-    <!-- From: file:/Users/amitkumar/Downloads/payu/PayuTestApp/CustomBrowser/res/values/strings.xml -->
+    <!-- From: file:/Users/amitkumar/AndroidStudioProjects/Scanner/CustomBrowser/res/values/strings.xml -->
     <eat-comment/>
     <string name="approve_otp">APPROVE OTP</string>
     <string name="authenticate_with">Authenticate With</string>
+    <string name="bank_page_loading">Please wait. Bank page is loading..</string>
     <string name="card_not_registered_with_pin">Your card has not been registered for PIN yet. Do you want to continue with PIN?</string>
     <string name="choose">choose</string>
     <string name="detect_bank">detectBank</string>
@@ -50,7 +51,7 @@
     <string name="sms_otp">SMS OTP</string>
     <string name="use_sms_otp">USE SMS OTP</string>
     <string name="waiting_for_otp">WAITING FOR OTP</string>
-    <!-- From: file:/Users/amitkumar/Downloads/payu/PayuTestApp/CustomBrowser/res/values/styles.xml -->
+    <!-- From: file:/Users/amitkumar/AndroidStudioProjects/Scanner/CustomBrowser/res/values/styles.xml -->
     <eat-comment/>
     <style name="approve_otp" parent="android:Widget.Button">
         <item name="android:paddingTop">@dimen/four</item>
