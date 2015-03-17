@@ -1,17 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:id="@+id/arrow" />
-
+        android:id="@+id/arrow"/>
     <FrameLayout
         android:id="@+id/help_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
-</LinearLayout><!-- From: file:/Users/amitkumar/AndroidStudioProjects/Scanner/CustomBrowser/res/layout/bank.xml -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:id="@+id/view"
+        android:background="@color/background">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentTop="true"
+            android:background="@color/border"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/sixteenScaled"
+                android:layout_marginTop="@dimen/eight"
+                android:layout_marginBottom="@dimen/eight"
+                android:drawableTop="@drawable/slider"
+                android:gravity="center"/>
+        </LinearLayout>
+
+       <!-- <ImageView
+            android:layout_gravity="right|center_vertical"
+            android:padding="5dp"
+            android:layout_height="30dp"
+            android:layout_width="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/arrow_cb">
+        </ImageView>-->
+
+    </RelativeLayout>
+</LinearLayout><!-- From: file:/home/minie/AndroidStudioProjects/piyushproject/android-sdk-test-piyush/CustomBrowser/res/layout/bank.xml -->

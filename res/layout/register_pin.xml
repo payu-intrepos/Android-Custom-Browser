@@ -22,9 +22,11 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="@color/dark_grey"
+
+            android:fontFamily="sans-serif-light"
+            android:textSize="18sp"
             android:text="@string/card_not_registered_with_pin"
-            android:textColor="@color/textColor"
-            android:textSize="@dimen/sixteenScaled"
             android:layout_marginBottom="@dimen/sixteen"
             android:gravity="center"/>
 
@@ -41,12 +43,14 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/register_for_pin"
+                android:textSize="17dp"
                 android:background="@drawable/approve_otp_button"
                 android:layout_marginRight="@dimen/eight"
                 style="@style/approve_otp" />
 
             <Button
                 android:id="@+id/otp"
+                android:textSize="17dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -59,4 +63,4 @@
 
     </LinearLayout>
 
-</LinearLayout><!-- From: file:/Users/amitkumar/AndroidStudioProjects/Scanner/CustomBrowser/res/layout/register_pin.xml -->
+</LinearLayout><!-- From: file:/home/minie/AndroidStudioProjects/piyushproject/android-sdk-test-piyush/CustomBrowser/res/layout/register_pin.xml -->

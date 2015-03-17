@@ -3,6 +3,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
+
     android:layout_height="match_parent"
     android:background="@color/background">
 
@@ -15,28 +16,219 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:layout_marginTop="@dimen/sixteen"
-        android:layout_marginBottom="@dimen/sixteen"
         android:gravity="center">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textColor"
+                android:layout_marginTop="@dimen/eight"
+                android:layout_marginBottom="@dimen/eighteen"
+                android:drawableTop="@drawable/slider"
+                android:gravity="center"/>
+        </LinearLayout>
 
-        <TextView
-            android:id="@+id/waiting"
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/incorrect_otp"
-            android:textColor="@color/textColor"
-            android:textStyle="bold"
-            android:layout_marginBottom="@dimen/eight"
-            android:textAppearance="?android:attr/textAppearanceMedium" />
+            android:orientation="vertical">
 
-        <Button
-            android:id="@+id/retry"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/approve_otp_button"
-            style="@style/approve_otp"
-            android:text="@string/regenerate_otp" />
+            <TextView
+                android:id="@+id/error_message"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:textSize="18sp"
+                android:textColor="@color/errorRed"
+                android:text="Incorrect OTP!"
+                android:layout_marginBottom="@dimen/four"
+                android:textStyle="normal"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/regenerate_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textColor"
+                android:text="retry..."
+                android:textStyle="normal"
+                android:textSize="20sp"
+                android:layout_marginBottom="@dimen/thirtysix"
+                android:gravity="center"/>
+            <EditText
+                android:id="@+id/otp_sms"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/otpColor"
+                android:inputType="number"
+                android:ems="5"
+                android:visibility="gone"
+
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/twentyfour"
+                android:hint="Enter OTP"
+                android:maxLength="8"
+                android:layout_marginBottom="@dimen/eight"/>
+
+            <Button
+                android:id="@+id/approve"
+                android:layout_width="180dp"
+                android:layout_height="36dp"
+                android:background="@drawable/approve_otp_button"
+                style="@style/approve_otp"
+                android:textSize="17sp"
+
+                android:alpha=".3"
+                android:visibility="gone"
+                android:clickable="false"
+                android:layout_marginTop="@dimen/eight"
+                android:layout_marginBottom="@dimen/twentyfour"
+
+                android:text="@string/approve_otp"
+                android:layout_gravity="center"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_horizontal"
+                    android:id="@+id/regenerate_layout"
+                    android:layout_marginBottom="@dimen/thirtysix"
+                    android:weightSum="1"
+
+                    >
+                    <LinearLayout
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".5"
+                        android:id="@+id/Enter_manually_gone">
+                        <Button
+                            android:id="@+id/enter_manually"
+                            android:layout_width="100dp"
+
+                            android:layout_height="36dp"
+                            android:background="@drawable/approve_otp_button"
+                            style="@style/approve_otp"
+                            android:textSize="12sp"
+                            android:paddingRight="@dimen/eight"
+                            android:paddingLeft="@dimen/eight"
+                            android:layout_marginTop="@dimen/eight"
+                            android:textStyle="bold"
+                            android:layout_weight=".5"
+                            android:layout_marginRight="@dimen/twelve"
+                            android:layout_marginLeft="@dimen/twentyfour"
+                            android:text="@string/enter_manually"
+
+
+                            />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".5"
+                        android:visibility="gone"
+                        android:id="@+id/Regenerate_layout_gone">
+
+                        <Button
+                            android:id="@+id/retry"
+                            android:layout_width="100dp"
+                            android:layout_height="36dp"
+                            android:background="@drawable/approve_otp_button"
+                            style="@style/approve_otp"
+                            android:paddingRight="@dimen/eight"
+                            android:paddingLeft="@dimen/eight"
+                            android:layout_marginLeft="@dimen/twelve"
+                            android:layout_marginTop="@dimen/eight"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            android:layout_weight=".5"
+                            android:layout_marginRight="@dimen/twentyfour"
+                            android:text="@string/regenerate_otp" />
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:gravity="bottom"
+                    android:layout_gravity="bottom"
+                    android:layout_height="30dp"
+                    android:weightSum="1"
+                    android:background="@drawable/rectangle_box"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:orientation="horizontal"
+                        android:layout_weight=".5"
+                        android:gravity="left">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:gravity="center"
+                            android:textSize="@dimen/twelveScaled"
+                            android:textColor="@color/textColor"
+                            android:drawablePadding="@dimen/four"
+                            android:textStyle="bold"
+                            android:layout_marginLeft="@dimen/eight"
+                            android:drawableRight="@drawable/trusticon"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:text="Powered by"
+                            android:textSize="15sp"
+                            android:gravity="center_vertical"
+                            android:textColor="@color/textColor"
+                            android:drawablePadding="@dimen/four"
+                            android:layout_marginLeft="@dimen/four"
+                            android:textStyle="normal"
+
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:gravity="center"
+                            android:textSize="@dimen/twelveScaled"
+
+                            android:textColor="@color/textColor"
+                            android:drawablePadding="@dimen/four"
+                            android:textStyle="bold"
+                            android:layout_marginLeft="@dimen/four"
+                            android:drawableLeft="@drawable/logo_payu"
+                            />
+                    </LinearLayout>
+                    <LinearLayout  android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="right"
+                        android:gravity="right"
+                        android:layout_weight=".5">
+                        <ImageView
+                            android:id="@+id/bank_logo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right|center_vertical"
+                            android:paddingRight="10dp"
+
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
 
     </LinearLayout>
 
-</LinearLayout><!-- From: file:/Users/amitkumar/AndroidStudioProjects/Scanner/CustomBrowser/res/layout/retry_otp.xml -->
+</LinearLayout><!-- From: file:/home/minie/AndroidStudioProjects/piyushproject/android-sdk-test-piyush/CustomBrowser/res/layout/retry_otp.xml -->

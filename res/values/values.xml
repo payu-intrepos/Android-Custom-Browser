@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/Users/amitkumar/AndroidStudioProjects/Scanner/CustomBrowser/res/values/colors.xml -->
+    <!-- From: file:/home/minie/AndroidStudioProjects/piyushproject/android-sdk-test-piyush/CustomBrowser/res/values/colors.xml -->
     <eat-comment/>
-    <color name="background">#f8f8f8</color>
+    <color name="background">#f6f6f6</color>
+    <color name="blue_button">#368ecd</color>
     <color name="border">#d4dee2</color>
+    <color name="dark_blue_button">#094774</color>
+    <color name="dark_grey">#464646</color>
     <color name="errorRed">#e40000</color>
-    <color name="otpColor">#071d74</color>
+    <color name="grey">#e9e7e7</color>
+    <color name="input_gray">#FFDEE6E6</color>
+    <color name="otpColor">#368ecd</color>
     <color name="otpDisabledColor">#7d88b3</color>
     <color name="otpDisabledTextColor">#bec4d9</color>
+    <color name="otpReceivedColor">#769b12</color>
     <color name="textColor">#8f8d8d</color>
-    <!-- From: file:/Users/amitkumar/AndroidStudioProjects/Scanner/CustomBrowser/res/values/dimens.xml -->
+    <!-- From: file:/home/minie/AndroidStudioProjects/piyushproject/android-sdk-test-piyush/CustomBrowser/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
@@ -18,40 +24,60 @@
     <dimen name="four">4dp</dimen>
     <dimen name="fourteen">14dp</dimen>
     <dimen name="fourteenScaled">14sp</dimen>
+    <dimen name="fourtytwo">48dp</dimen>
     <dimen name="sixteen">16dp</dimen>
     <dimen name="sixteenScaled">16sp</dimen>
+    <dimen name="thirtysix">36dp</dimen>
+    <dimen name="thirtytwo">32dp</dimen>
     <dimen name="twelve">12dp</dimen>
+    <dimen name="twelveScaled">12sp</dimen>
+    <dimen name="twentyfour">24dp</dimen>
     <dimen name="two">2dp</dimen>
-    <!-- From: file:/Users/amitkumar/AndroidStudioProjects/Scanner/CustomBrowser/res/values/strings.xml -->
+    <!-- From: file:/home/minie/AndroidStudioProjects/piyushproject/android-sdk-test-piyush/CustomBrowser/res/values/strings.xml -->
     <eat-comment/>
-    <string name="approve_otp">APPROVE OTP</string>
-    <string name="authenticate_with">Authenticate With</string>
+    <string name="approve_otp">Approve</string>
+    <string name="approved_otp">approved OTP</string>
+    <string name="authenticate_with">Select an option for Faster Payment</string>
     <string name="bank_page_loading">Please wait. Bank page is loading..</string>
+    <string name="cancel">cancel</string>
     <string name="card_not_registered_with_pin">Your card has not been registered for PIN yet. Do you want to continue with PIN?</string>
     <string name="choose">choose</string>
     <string name="detect_bank">detectBank</string>
     <string name="detect_otp">detectOtp</string>
+    <string name="detecting_bank">detecting bank</string>
+    <string name="detecting_page">detecting page</string>
+    <string name="enter_manually">Enter Manually</string>
+    <string name="enter_manually_log">enterManually</string>
     <string name="enter_otp">enterOTP</string>
     <string name="enter_pin">enterPIN</string>
     <string name="error">error</string>
+    <string name="failure">failure</string>
     <string name="find_otp">findOtp</string>
-    <string name="incorrect_otp">INCORRECT OTP</string>
+    <string name="incorrect_OTP_2">incorrectOTP</string>
+    <string name="incorrect_otp">INCORRECT OTP ENTERED</string>
     <string name="init">init</string>
+    <string name="missing_txn_id">Missing Transaction ID</string>
     <string name="otp">otp</string>
+    <string name="otp_received">OTP Received</string>
+    <string name="otp_wv">OTP_WV</string>
     <string name="password">PASSWORD</string>
     <string name="pin">pin</string>
+    <string name="pin_wv">PIN_WV</string>
     <string name="process_otp">process_otp</string>
+    <string name="reg_otp">REGENERATE OTP</string>
     <string name="regen_otp">regenerate_otp</string>
     <string name="regenerate">regenerate</string>
-    <string name="regenerate_otp">REGENERATE OTP</string>
+    <string name="regenerate_otp">Regenerate OTP</string>
+    <string name="regenerate_otp_text">It is taking long.You may...</string>
     <string name="register">register</string>
     <string name="register_for_pin">REGISTER FOR PIN</string>
     <string name="result">result</string>
     <string name="retry_otp">retryOTP</string>
     <string name="sms_otp">SMS OTP</string>
+    <string name="success">success</string>
     <string name="use_sms_otp">USE SMS OTP</string>
-    <string name="waiting_for_otp">WAITING FOR OTP</string>
-    <!-- From: file:/Users/amitkumar/AndroidStudioProjects/Scanner/CustomBrowser/res/values/styles.xml -->
+    <string name="waiting_for_otp">Waiting for OTP</string>
+    <!-- From: file:/home/minie/AndroidStudioProjects/piyushproject/android-sdk-test-piyush/CustomBrowser/res/values/styles.xml -->
     <eat-comment/>
     <style name="approve_otp" parent="android:Widget.Button">
         <item name="android:paddingTop">@dimen/four</item>
