@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">l
+<include
+    android:id="@+id/progress"
+    layout="@layout/progressdialog"
+    ></include>
+</LinearLayout>
+<!-- From: file:/home/minie/AndroidStudioProjects/piyushproject/android-sdk-test-piyush/CustomBrowser/res/layout/mainprogress.xml -->

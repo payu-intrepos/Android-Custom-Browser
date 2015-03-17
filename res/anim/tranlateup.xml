@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <translate
+        android:interpolator="@android:anim/linear_interpolator"
+        android:fromYDelta="70%p"
+        android:toYDelta="-1%p"
+        android:duration="500"
+        >
+
+        </translate>
+</set><!-- From: file:/home/minie/AndroidStudioProjects/piyushproject/android-sdk-test-piyush/CustomBrowser/res/anim/tranlateup.xml -->

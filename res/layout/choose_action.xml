@@ -4,72 +4,198 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/background">
+    android:background="@color/background"
+    android:weightSum="1">
 
-    <View
+  <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="@color/border" />
+        android:background="@color/border"
+        />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:gravity="center_vertical">
-
-        <TextView
-            android:id="@+id/error_message"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="@dimen/fourteenScaled"
-            android:textColor="@color/errorRed"
-            android:layout_marginBottom="@dimen/four"
-            android:visibility="gone"
-            android:gravity="center"/>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/authenticate_with"
-            android:textColor="@color/textColor"
-            android:textSize="@dimen/sixteenScaled"
-            android:layout_marginBottom="@dimen/sixteen"
-            android:gravity="center"/>
-
         <LinearLayout
-            android:orientation="horizontal"
-            android:layout_marginBottom="@dimen/sixteen"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
+            android:layout_height="30dp">
             <TextView
-                android:id="@+id/pin"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:gravity="center"
-                android:textSize="@dimen/fourteenScaled"
-                android:layout_weight="1"
-                android:text="@string/password"
                 android:textColor="@color/textColor"
-                android:drawablePadding="@dimen/four"
-                android:textStyle="bold"
-                android:drawableTop="@drawable/icon_password"/>
-
+                android:textSize="@dimen/sixteenScaled"
+                android:layout_marginBottom="@dimen/twelve"
+                android:layout_marginTop="@dimen/eight"
+                android:drawableTop="@drawable/slider"
+                android:gravity="center"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
             <TextView
-                android:id="@+id/otp"
+                android:id="@+id/error_message"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:gravity="center"
                 android:textSize="@dimen/fourteenScaled"
-                android:layout_weight="1"
-                android:text="@string/sms_otp"
-                android:textColor="@color/textColor"
-                android:drawablePadding="@dimen/four"
-                android:textStyle="bold"
-                android:drawableTop="@drawable/icon_otp"/>
+                android:textColor="@color/errorRed"
+                android:layout_marginBottom="@dimen/four"
+                android:visibility="gone"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/choose_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/authenticate_with"
+                android:textColor="@color/dark_grey"
+
+                android:fontFamily="sans-serif-light"
+                android:textSize="18sp"
+                android:layout_marginBottom="@dimen/twelve"
+                android:gravity="center"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="@dimen/sixteen"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <View android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+                    </View>
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        >
+                        <TextView
+                            android:id="@+id/otp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textSize="13sp"
+                            android:layout_centerInParent="true"
+                            android:text="@string/sms_otp"
+                            android:textColor="@color/textColor"
+                            android:textStyle="bold"
+                            android:drawableTop="@drawable/otp_icon_large"/>
+                    </RelativeLayout>
+
+                    <View android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:id="@+id/view">
+                    </View>
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        >
+                        <TextView
+                            android:id="@+id/pin"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textSize="13sp"
+                            android:layout_gravity="right"
+                            android:text="PASSWORD"
+                            android:textColor="@color/textColor"
+                            android:layout_centerInParent="true"
+                            android:textStyle="bold"
+                            android:drawableTop="@drawable/password_icon_large"/>
+                    </RelativeLayout>
+                    <View android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+                    </View>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:gravity="bottom"
+                    android:layout_height="wrap_content"
+                    android:weightSum="1"
+                    android:background="@drawable/rectangle_box"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:orientation="horizontal"
+                        android:layout_weight=".5"
+                        android:gravity="left">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:gravity="center_vertical"
+                            android:textSize="@dimen/twelveScaled"
+                            android:textColor="@color/textColor"
+                            android:drawablePadding="@dimen/four"
+                            android:textStyle="bold"
+
+                            android:layout_marginLeft="@dimen/eight"
+                            android:drawableRight="@drawable/trusticon"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:textSize="15sp"
+                            android:text="Powered by"
+                            android:gravity="center_vertical"
+                            android:textColor="@color/textColor"
+                            android:drawablePadding="@dimen/four"
+                            android:layout_marginLeft="@dimen/four"
+                            android:textStyle="normal"
+
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:gravity="center"
+                            android:textSize="@dimen/twelveScaled"
+                            android:textColor="@color/textColor"
+                            android:drawablePadding="@dimen/four"
+                            android:textStyle="bold"
+                            android:layout_marginLeft="@dimen/four"
+                            android:drawableLeft="@drawable/logo_payu"
+                            />
+                    </LinearLayout>
+                    <!--<TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".5"
+                        android:layout_gravity="center_vertical|left"
+                        android:drawableRight="@drawable/hdfc_bank"
+                        android:textColor="@color/textColor"
+                        android:textStyle="normal"
+                        android:layout_marginRight="@dimen/twelve"
+                        />-->
+
+                    <LinearLayout  android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="right"
+                        android:gravity="right"
+                        android:layout_weight=".5">
+                    <ImageView
+                        android:id="@+id/bank_logo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right|center_vertical"
+                        android:paddingRight="10dp"
+
+                        />
+                        </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
 
         </LinearLayout>
-
     </LinearLayout>
 
-</LinearLayout><!-- From: file:/Users/amitkumar/AndroidStudioProjects/Scanner/CustomBrowser/res/layout/choose_action.xml -->
+</LinearLayout><!-- From: file:/home/minie/AndroidStudioProjects/piyushproject/android-sdk-test-piyush/CustomBrowser/res/layout/choose_action.xml -->

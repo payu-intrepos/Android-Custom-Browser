@@ -2,8 +2,10 @@
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:id="@+id/loading"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
     android:background="@color/background">
 
     <View
@@ -15,29 +17,121 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:layout_marginTop="@dimen/sixteen"
-        android:layout_marginBottom="@dimen/sixteen"
-        android:gravity="center">
+        android:orientation="vertical">
+          <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
 
-        <com.payu.custombrowser.RotatingImageView
-            android:id="@+id/loading"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/loader"
-            android:layout_marginBottom="@dimen/eight" />
+            android:orientation="vertical">
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_alignParentTop="true"
+                  android:id="@+id/header"
+                  android:layout_height="30dp">
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:textColor="@color/textColor"
+                      android:textSize="@dimen/sixteenScaled"
+                      android:layout_marginBottom="@dimen/eight"
+                      android:layout_marginTop="@dimen/eight"
+                      android:drawableTop="@drawable/slider"
+                      android:gravity="center"/>
+              </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="@dimen/sixteen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <include
+                    android:id="@+id/progress"
+                    layout="@layout/progressdialog"
+                    ></include>
 
-        <TextView
-            android:id="@+id/waiting"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/bank_page_loading"
-            android:textColor="@color/textColor"
-            android:textStyle="bold"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:layout_marginBottom="@dimen/eight" />
+                <TextView
+                    android:id="@+id/waiting"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bank_page_loading"
+                    android:textColor="@color/textColor"
+                    android:textStyle="bold"
+                    android:layout_marginTop="@dimen/twelve"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_marginBottom="@dimen/eight" />
 
+            </LinearLayout>
+              <LinearLayout
+                  android:orientation="horizontal"
+                  android:layout_width="match_parent"
+                  android:gravity="bottom"
+                  android:layout_height="30dp"
+                  android:layout_gravity="bottom"
+                  android:layout_alignParentBottom="true"
+                  android:weightSum="1"
+                  android:background="@drawable/rectangle_box"
+                  >
+
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="30dp"
+                      android:orientation="horizontal"
+                      android:layout_weight=".5"
+                      android:gravity="left">
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="30dp"
+                          android:gravity="center"
+                          android:textSize="@dimen/twelveScaled"
+                          android:textColor="@color/textColor"
+                          android:drawablePadding="@dimen/four"
+                          android:textStyle="bold"
+                          android:layout_marginLeft="@dimen/eight"
+                          android:drawableRight="@drawable/trusticon"
+                          />
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="30dp"
+                          android:textSize="15sp"
+                          android:text="Powered by"
+                          android:gravity="center_vertical"
+                          android:textColor="@color/textColor"
+                          android:drawablePadding="@dimen/four"
+                          android:layout_marginLeft="@dimen/four"
+                          android:textStyle="normal"
+
+                          />
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="20dp"
+                          android:gravity="center"
+                          android:textSize="@dimen/twelveScaled"
+                          android:textColor="@color/textColor"
+                          android:drawablePadding="@dimen/four"
+                          android:textStyle="bold"
+                          android:layout_marginLeft="@dimen/four"
+                          android:drawableLeft="@drawable/logo_payu"
+                          />
+                  </LinearLayout>
+                  <LinearLayout  android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:layout_gravity="right"
+                      android:gravity="right"
+                      android:layout_weight=".5">
+                      <ImageView
+                          android:id="@+id/bank_logo"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_gravity="right|center_vertical"
+                          android:paddingRight="10dp"
+
+                          />
+                  </LinearLayout>
+              </LinearLayout>
+        </RelativeLayout>
 
     </LinearLayout>
 
-</LinearLayout><!-- From: file:/Users/amitkumar/AndroidStudioProjects/Scanner/CustomBrowser/res/layout/loading.xml -->
+</LinearLayout><!-- From: file:/home/minie/AndroidStudioProjects/piyushproject/android-sdk-test-piyush/CustomBrowser/res/layout/loading.xml -->
