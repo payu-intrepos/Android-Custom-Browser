@@ -4,7 +4,7 @@
     android:layout_height="fill_parent"
     android:layout_gravity="center"
     android:gravity="center"
-    android:background="@color/background">
+    android:background="@color/cb_background">
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -12,7 +12,7 @@
         android:layout_gravity="center"
         android:gravity="center"
         android:layout_marginTop="@dimen/twelve"
-        android:background="@color/background">
+        android:background="@color/cb_background">
 
         <RelativeLayout
             android:layout_height="10dp"
@@ -93,4 +93,4 @@
     </LinearLayout>
 
 
-</RelativeLayout><!-- From: file:/home/minie/AndroidStudioProjects/piyushproject/android-sdk-test-piyush/CustomBrowser/res/layout/progressdialog.xml -->
+</RelativeLayout><!-- From: file:/Users/piyushjain/Downloads/payumoneyapp-android-24-3%202/payumoneyapp-android/CustomBrowser/res/layout/progressdialog.xml -->

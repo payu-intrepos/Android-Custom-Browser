@@ -6,13 +6,13 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
 
-    android:background="@color/background">
+    android:background="@color/cb_background">
 
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_alignParentTop="true"
-        android:background="@color/border"/>
+        android:background="@color/cb_border"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -31,7 +31,7 @@
                   <TextView
                       android:layout_width="match_parent"
                       android:layout_height="wrap_content"
-                      android:textColor="@color/textColor"
+                      android:textColor="@color/cb_textColor"
                       android:textSize="@dimen/sixteenScaled"
                       android:layout_marginBottom="@dimen/eight"
                       android:layout_marginTop="@dimen/eight"
@@ -56,7 +56,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/bank_page_loading"
-                    android:textColor="@color/textColor"
+                    android:textColor="@color/cb_textColor"
                     android:textStyle="bold"
                     android:layout_marginTop="@dimen/twelve"
                     android:textAppearance="?android:attr/textAppearanceMedium"
@@ -85,7 +85,7 @@
                           android:layout_height="30dp"
                           android:gravity="center"
                           android:textSize="@dimen/twelveScaled"
-                          android:textColor="@color/textColor"
+                          android:textColor="@color/cb_textColor"
                           android:drawablePadding="@dimen/four"
                           android:textStyle="bold"
                           android:layout_marginLeft="@dimen/eight"
@@ -97,7 +97,7 @@
                           android:textSize="15sp"
                           android:text="Powered by"
                           android:gravity="center_vertical"
-                          android:textColor="@color/textColor"
+                          android:textColor="@color/cb_textColor"
                           android:drawablePadding="@dimen/four"
                           android:layout_marginLeft="@dimen/four"
                           android:textStyle="normal"
@@ -108,7 +108,7 @@
                           android:layout_height="20dp"
                           android:gravity="center"
                           android:textSize="@dimen/twelveScaled"
-                          android:textColor="@color/textColor"
+                          android:textColor="@color/cb_textColor"
                           android:drawablePadding="@dimen/four"
                           android:textStyle="bold"
                           android:layout_marginLeft="@dimen/four"
@@ -134,4 +134,4 @@
 
     </LinearLayout>
 
-</LinearLayout><!-- From: file:/home/minie/AndroidStudioProjects/piyushproject/android-sdk-test-piyush/CustomBrowser/res/layout/loading.xml -->
+</LinearLayout><!-- From: file:/Users/piyushjain/Downloads/payumoneyapp-android-24-3%202/payumoneyapp-android/CustomBrowser/res/layout/loading.xml -->

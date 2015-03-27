@@ -7,5 +7,5 @@
         android:fillAfter="true"
         android:toAlpha="1.0"
         android:interpolator="@android:anim/accelerate_interpolator"
-        android:duration="2500"/>
-</set><!-- From: file:/home/minie/AndroidStudioProjects/piyushproject/android-sdk-test-piyush/CustomBrowser/res/anim/fade_in.xml -->
+        android:duration="500"/>
+</set><!-- From: file:/Users/piyushjain/Downloads/payumoneyapp-android-24-3%202/payumoneyapp-android/CustomBrowser/res/anim/cb_fade_in.xml -->

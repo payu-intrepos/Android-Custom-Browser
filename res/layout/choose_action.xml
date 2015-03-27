@@ -4,13 +4,13 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/background"
+    android:background="@color/cb_background"
     android:weightSum="1">
 
   <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="@color/border"
+        android:background="@color/cb_border"
         />
 
     <LinearLayout
@@ -24,7 +24,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="@color/textColor"
+                android:textColor="@color/cb_textColor"
                 android:textSize="@dimen/sixteenScaled"
                 android:layout_marginBottom="@dimen/twelve"
                 android:layout_marginTop="@dimen/eight"
@@ -40,7 +40,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="@dimen/fourteenScaled"
-                android:textColor="@color/errorRed"
+                android:textColor="@color/cb_errorRed"
                 android:layout_marginBottom="@dimen/four"
                 android:visibility="gone"
                 android:gravity="center"/>
@@ -50,7 +50,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/authenticate_with"
-                android:textColor="@color/dark_grey"
+                android:textColor="@color/cb_dark_grey"
 
                 android:fontFamily="sans-serif-light"
                 android:textSize="18sp"
@@ -83,7 +83,7 @@
                             android:textSize="13sp"
                             android:layout_centerInParent="true"
                             android:text="@string/sms_otp"
-                            android:textColor="@color/textColor"
+                            android:textColor="@color/cb_textColor"
                             android:textStyle="bold"
                             android:drawableTop="@drawable/otp_icon_large"/>
                     </RelativeLayout>
@@ -105,7 +105,7 @@
                             android:textSize="13sp"
                             android:layout_gravity="right"
                             android:text="PASSWORD"
-                            android:textColor="@color/textColor"
+                            android:textColor="@color/cb_textColor"
                             android:layout_centerInParent="true"
                             android:textStyle="bold"
                             android:drawableTop="@drawable/password_icon_large"/>
@@ -136,7 +136,7 @@
                             android:layout_height="30dp"
                             android:gravity="center_vertical"
                             android:textSize="@dimen/twelveScaled"
-                            android:textColor="@color/textColor"
+                            android:textColor="@color/cb_textColor"
                             android:drawablePadding="@dimen/four"
                             android:textStyle="bold"
 
@@ -149,7 +149,7 @@
                             android:textSize="15sp"
                             android:text="Powered by"
                             android:gravity="center_vertical"
-                            android:textColor="@color/textColor"
+                            android:textColor="@color/cb_textColor"
                             android:drawablePadding="@dimen/four"
                             android:layout_marginLeft="@dimen/four"
                             android:textStyle="normal"
@@ -160,7 +160,7 @@
                             android:layout_height="20dp"
                             android:gravity="center"
                             android:textSize="@dimen/twelveScaled"
-                            android:textColor="@color/textColor"
+                            android:textColor="@color/cb_textColor"
                             android:drawablePadding="@dimen/four"
                             android:textStyle="bold"
                             android:layout_marginLeft="@dimen/four"
@@ -198,4 +198,4 @@
         </LinearLayout>
     </LinearLayout>
 
-</LinearLayout><!-- From: file:/home/minie/AndroidStudioProjects/piyushproject/android-sdk-test-piyush/CustomBrowser/res/layout/choose_action.xml -->
+</LinearLayout><!-- From: file:/Users/piyushjain/Downloads/payumoneyapp-android-24-3%202/payumoneyapp-android/CustomBrowser/res/layout/choose_action.xml -->

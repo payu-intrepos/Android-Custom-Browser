@@ -4,13 +4,13 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/background">
+    android:background="@color/cb_background">
 
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_alignParentTop="true"
-        android:background="@color/border"/>
+        android:background="@color/cb_border"/>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -19,11 +19,11 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="30dp">
+            android:layout_height="42dp">
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="@color/textColor"
+                android:textColor="@color/cb_textColor"
                 android:textSize="@dimen/sixteenScaled"
                 android:layout_marginTop="@dimen/eight"
                 android:layout_marginBottom="@dimen/eight"
@@ -53,7 +53,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/waiting_for_otp"
-                    android:textColor="@color/dark_grey"
+                    android:textColor="@color/cb_dark_grey"
                     android:fontFamily="sans-serif-light"
                     android:textSize="18sp"
                     android:textStyle="normal"
@@ -68,22 +68,24 @@
                     android:visibility="gone"
                     android:text="@string/otp_received"
                     android:layout_height="wrap_content"
-                    android:textColor="@color/otpReceivedColor"
+                    android:textColor="@color/cb_otpReceivedColor"
                     android:layout_marginTop="@dimen/twentyfour"
                     ></TextView>
                 <EditText
                     android:id="@+id/otp_sms"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="@color/otpColor"
+                    android:textColor="@color/cb_otpColor"
                     android:inputType="number"
                     android:ems="5"
                     android:gravity="center"
+                    style="@style/cb_edit_text"
                     android:fontFamily="sans-serif-light"
                     android:textSize="25sp"
+                    android:visibility="gone"
                     android:hint="Enter OTP"
                     android:maxLength="8"
-                    android:visibility="gone"
+
                     android:layout_marginBottom="@dimen/eight">
                 <requestFocus > </requestFocus>
                 </EditText>
@@ -107,7 +109,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/eight"
                     android:visibility="gone"
-                    android:textColor="@color/dark_grey"
+                    android:textColor="@color/cb_dark_grey"
                     android:fontFamily="sans-serif-light"
                     android:textSize="18sp"
                     android:layout_marginBottom="@dimen/twelve"
@@ -141,9 +143,7 @@
                             android:layout_weight=".5"
                             android:layout_marginRight="@dimen/twelve"
                             android:layout_marginLeft="@dimen/twentyfour"
-                            android:text="@string/enter_manually"
-
-
+                            android:text="Enter Manually"
                             />
                     </LinearLayout>
                     <LinearLayout
@@ -193,7 +193,7 @@
                         android:layout_height="30dp"
                         android:gravity="center"
                         android:textSize="@dimen/twelveScaled"
-                        android:textColor="@color/textColor"
+                        android:textColor="@color/cb_textColor"
                         android:drawablePadding="@dimen/four"
                         android:textStyle="bold"
                         android:layout_marginLeft="@dimen/eight"
@@ -202,7 +202,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="30dp"
-                        android:textColor="@color/textColor"
+                        android:textColor="@color/cb_textColor"
                         android:drawablePadding="@dimen/four"
                         android:textSize="15sp"
                         android:text="Powered by"
@@ -216,7 +216,7 @@
                         android:layout_height="20dp"
                         android:gravity="center"
                         android:textSize="@dimen/twelveScaled"
-                        android:textColor="@color/textColor"
+                        android:textColor="@color/cb_textColor"
                         android:drawablePadding="@dimen/four"
                         android:textStyle="bold"
                         android:layout_marginLeft="@dimen/four"
@@ -244,4 +244,4 @@
 
 
 
-</LinearLayout><!-- From: file:/home/minie/AndroidStudioProjects/piyushproject/android-sdk-test-piyush/CustomBrowser/res/layout/wait_for_otp.xml -->
+</LinearLayout><!-- From: file:/Users/piyushjain/Downloads/payumoneyapp-android-24-3%202/payumoneyapp-android/CustomBrowser/res/layout/wait_for_otp.xml -->

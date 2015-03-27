@@ -4,26 +4,37 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/background">
+    android:background="@color/cb_background">
 
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="@color/border" />
+        android:background="@color/cb_border" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:layout_marginTop="@dimen/sixteen"
-        android:layout_marginBottom="@dimen/sixteen"
         android:gravity="center_vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/cb_textColor"
+                android:layout_marginTop="@dimen/eight"
+                android:layout_marginBottom="@dimen/eighteen"
+                android:drawableTop="@drawable/slider"
+                android:gravity="center"/>
+        </LinearLayout>
+
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="@color/dark_grey"
-
+            android:textColor="@color/cb_dark_grey"
             android:fontFamily="sans-serif-light"
             android:textSize="18sp"
             android:text="@string/card_not_registered_with_pin"
@@ -35,12 +46,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingLeft="@dimen/eight"
+            android:layout_marginBottom="@dimen/thirtysix"
             android:paddingRight="@dimen/eight">
 
             <Button
                 android:id="@+id/pin"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+
                 android:layout_weight="1"
                 android:text="@string/register_for_pin"
                 android:textSize="17dp"
@@ -60,7 +73,72 @@
                 style="@style/approve_otp" />
 
         </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:gravity="bottom"
+            android:layout_gravity="bottom"
+            android:layout_height="30dp"
+            android:weightSum="1"
+            android:background="@drawable/rectangle_box"
+            >
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:orientation="horizontal"
+                android:layout_weight=".5"
+                android:gravity="left">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:gravity="center"
+                    android:textSize="@dimen/twelveScaled"
+                    android:textColor="@color/cb_textColor"
+                    android:drawablePadding="@dimen/four"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="@dimen/eight"
+                    android:drawableRight="@drawable/trusticon"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="Powered by"
+                    android:textSize="15sp"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/cb_textColor"
+                    android:drawablePadding="@dimen/four"
+                    android:layout_marginLeft="@dimen/four"
+                    android:textStyle="normal"
+
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:gravity="center"
+                    android:textSize="@dimen/twelveScaled"
+                    android:textColor="@color/cb_textColor"
+                    android:drawablePadding="@dimen/four"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="@dimen/four"
+                    android:drawableLeft="@drawable/logo_payu"
+                    />
+            </LinearLayout>
+            <LinearLayout  android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:gravity="right"
+                android:layout_weight=".5">
+                <ImageView
+                    android:id="@+id/bank_logo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center_vertical"
+                    android:paddingRight="10dp"
+
+                    />
+            </LinearLayout>
+        </LinearLayout>
     </LinearLayout>
 
-</LinearLayout><!-- From: file:/home/minie/AndroidStudioProjects/piyushproject/android-sdk-test-piyush/CustomBrowser/res/layout/register_pin.xml -->
+</LinearLayout><!-- From: file:/Users/piyushjain/Downloads/payumoneyapp-android-24-3%202/payumoneyapp-android/CustomBrowser/res/layout/register_pin.xml -->

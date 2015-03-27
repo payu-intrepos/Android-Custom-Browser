@@ -5,12 +5,12 @@
     android:layout_width="match_parent"
 
     android:layout_height="match_parent"
-    android:background="@color/background">
+    android:background="@color/cb_background">
 
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="@color/border"/>
+        android:background="@color/cb_border"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -23,7 +23,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="@color/textColor"
+                android:textColor="@color/cb_textColor"
                 android:layout_marginTop="@dimen/eight"
                 android:layout_marginBottom="@dimen/eighteen"
                 android:drawableTop="@drawable/slider"
@@ -41,7 +41,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-light"
                 android:textSize="18sp"
-                android:textColor="@color/errorRed"
+                android:textColor="@color/cb_errorRed"
                 android:text="Incorrect OTP!"
                 android:layout_marginBottom="@dimen/four"
                 android:textStyle="normal"
@@ -51,7 +51,7 @@
                 android:id="@+id/regenerate_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="@color/textColor"
+                android:textColor="@color/cb_textColor"
                 android:text="retry..."
                 android:textStyle="normal"
                 android:textSize="20sp"
@@ -61,7 +61,7 @@
                 android:id="@+id/otp_sms"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="@color/otpColor"
+                android:textColor="@color/cb_otpColor"
                 android:inputType="number"
                 android:ems="5"
                 android:visibility="gone"
@@ -178,7 +178,7 @@
                             android:layout_height="30dp"
                             android:gravity="center"
                             android:textSize="@dimen/twelveScaled"
-                            android:textColor="@color/textColor"
+                            android:textColor="@color/cb_textColor"
                             android:drawablePadding="@dimen/four"
                             android:textStyle="bold"
                             android:layout_marginLeft="@dimen/eight"
@@ -190,7 +190,7 @@
                             android:text="Powered by"
                             android:textSize="15sp"
                             android:gravity="center_vertical"
-                            android:textColor="@color/textColor"
+                            android:textColor="@color/cb_textColor"
                             android:drawablePadding="@dimen/four"
                             android:layout_marginLeft="@dimen/four"
                             android:textStyle="normal"
@@ -202,7 +202,7 @@
                             android:gravity="center"
                             android:textSize="@dimen/twelveScaled"
 
-                            android:textColor="@color/textColor"
+                            android:textColor="@color/cb_textColor"
                             android:drawablePadding="@dimen/four"
                             android:textStyle="bold"
                             android:layout_marginLeft="@dimen/four"
@@ -231,4 +231,4 @@
 
     </LinearLayout>
 
-</LinearLayout><!-- From: file:/home/minie/AndroidStudioProjects/piyushproject/android-sdk-test-piyush/CustomBrowser/res/layout/retry_otp.xml -->
+</LinearLayout><!-- From: file:/Users/piyushjain/Downloads/payumoneyapp-android-24-3%202/payumoneyapp-android/CustomBrowser/res/layout/retry_otp.xml -->
