@@ -39,11 +39,15 @@
                 android:id="@+id/error_message"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="@dimen/fourteenScaled"
-                android:textColor="@color/cb_errorRed"
-                android:layout_marginBottom="@dimen/four"
                 android:visibility="gone"
-                android:gravity="center"/>
+                android:gravity="center"
+
+                android:fontFamily="sans-serif-light"
+                android:textSize="18sp"
+                android:textStyle="normal"
+                android:textColor="@color/cb_errorRed"
+                android:text="Incorrect OTP!"
+                android:layout_marginBottom="@dimen/four"/>
 
             <TextView
                 android:id="@+id/choose_text"
@@ -85,7 +89,7 @@
                             android:text="@string/sms_otp"
                             android:textColor="@color/cb_textColor"
                             android:textStyle="bold"
-                            android:drawableTop="@drawable/otp_icon_large"/>
+                            android:drawableTop="@drawable/otp_button_selector"/>
                     </RelativeLayout>
 
                     <View android:layout_width="0dp"
@@ -108,7 +112,7 @@
                             android:textColor="@color/cb_textColor"
                             android:layout_centerInParent="true"
                             android:textStyle="bold"
-                            android:drawableTop="@drawable/password_icon_large"/>
+                            android:drawableTop="@drawable/pin_button_selector"/>
                     </RelativeLayout>
                     <View android:layout_width="0dp"
                         android:layout_height="match_parent"
@@ -198,4 +202,4 @@
         </LinearLayout>
     </LinearLayout>
 
-</LinearLayout><!-- From: file:/Users/piyushjain/Downloads/payumoneyapp-android-24-3%202/payumoneyapp-android/CustomBrowser/res/layout/choose_action.xml -->
+</LinearLayout>
