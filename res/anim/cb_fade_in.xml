@@ -8,4 +8,4 @@
         android:toAlpha="1.0"
         android:interpolator="@android:anim/accelerate_interpolator"
         android:duration="500"/>
-</set><!-- From: file:/home/franklin/AndroidStudioProjects/new/android-sdk-test-project/CustomBrowser/res/anim/cb_fade_in.xml -->
+</set><!-- From: file:/Users/piyushjain/Desktop/android-sdk-test-project/CustomBrowser/res/anim/cb_fade_in.xml -->

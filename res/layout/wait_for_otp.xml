@@ -120,60 +120,75 @@
                     android:orientation="horizontal"
                     android:gravity="center_horizontal"
                     android:id="@+id/regenerate_layout"
-                    android:layout_marginBottom="@dimen/twentyfour"
-                    android:weightSum="1"
                     android:visibility="gone"
+                    android:layout_marginBottom="@dimen/twentyfour"
                     >
                     <LinearLayout
-                        android:layout_width="130dp"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
                         android:layout_height="wrap_content"
-                        android:layout_weight=".5"
+                        android:gravity="center"
                         android:id="@+id/Enter_manually_gone">
                         <Button
                             android:id="@+id/enter_manually"
-                            android:layout_width="100dp"
+                            android:layout_width="150dp"
                             android:layout_height="36dp"
                             android:background="@drawable/approve_otp_button"
                             style="@style/approve_otp"
                             android:textSize="12sp"
                             android:paddingRight="@dimen/eight"
                             android:paddingLeft="@dimen/eight"
-                            android:layout_marginTop="@dimen/eight"
                             android:textStyle="bold"
-                            android:layout_weight=".5"
-                            android:layout_marginRight="@dimen/twelve"
-                            android:layout_marginLeft="@dimen/twentyfour"
                             android:text="Enter Manually"
                             />
                     </LinearLayout>
                     <LinearLayout
-                        android:layout_width="130dp"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:visibility="gone"
                         android:layout_height="wrap_content"
-                        android:layout_weight=".5"
                         android:id="@+id/Regenerate_layout_gone">
 
                         <Button
                             android:id="@+id/retry"
-                            android:layout_width="100dp"
+                            android:layout_width="150dp"
                             android:layout_height="36dp"
                             android:background="@drawable/approve_otp_button"
                             style="@style/approve_otp"
                             android:paddingRight="@dimen/eight"
                             android:paddingLeft="@dimen/eight"
-                            android:layout_marginLeft="@dimen/twelve"
-                            android:layout_marginTop="@dimen/eight"
                             android:textSize="12sp"
                             android:textStyle="bold"
-                            android:layout_weight=".5"
-                            android:layout_marginRight="@dimen/twentyfour"
                             android:text="@string/regenerate_otp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/pin_layout_gone"
+                        android:visibility="gone">
+
+                        <Button
+                            android:id="@+id/pin"
+                            android:layout_width="150dp"
+                            android:layout_height="36dp"
+                            android:background="@drawable/approve_otp_button"
+                            style="@style/approve_otp"
+                            android:paddingRight="@dimen/eight"
+                            android:paddingLeft="@dimen/eight"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            android:text="@string/password_value" />
                     </LinearLayout>
 
 
 
                 </LinearLayout>
                 </LinearLayout>
-            <LinearLayout
+            <RelativeLayout
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
                 android:gravity="bottom"
@@ -183,11 +198,10 @@
                 >
 
                 <LinearLayout
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="30dp"
                     android:orientation="horizontal"
-                    android:layout_weight=".5"
-                    android:gravity="left">
+                    android:layout_alignParentLeft="true">
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="30dp"
@@ -223,25 +237,23 @@
                         android:drawableLeft="@drawable/logo_payu"
                         />
                 </LinearLayout>
-                <LinearLayout  android:layout_width="match_parent"
+                <LinearLayout  android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:layout_gravity="right"
-                    android:gravity="right"
-                    android:layout_weight=".5">
+
+                    android:layout_alignParentRight="true">
                     <ImageView
                         android:id="@+id/bank_logo"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="right|center_vertical"
                         android:paddingRight="10dp"
-
                         />
                 </LinearLayout>
-            </LinearLayout>
+            </RelativeLayout>
         </LinearLayout>
 
     </LinearLayout>
 
 
 
-</LinearLayout><!-- From: file:/home/franklin/AndroidStudioProjects/new/android-sdk-test-project/CustomBrowser/res/layout/wait_for_otp.xml -->
+</LinearLayout><!-- From: file:/Users/piyushjain/Desktop/android-sdk-test-project/CustomBrowser/res/layout/wait_for_otp.xml -->

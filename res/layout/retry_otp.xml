@@ -3,7 +3,6 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-
     android:layout_height="match_parent"
     android:background="@color/cb_background">
 
@@ -41,10 +40,11 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-light"
                 android:textSize="18sp"
+                android:textStyle="normal"
                 android:textColor="@color/cb_errorRed"
                 android:text="Incorrect OTP!"
                 android:layout_marginBottom="@dimen/four"
-                android:textStyle="normal"
+
                 android:gravity="center"/>
 
             <TextView
@@ -102,58 +102,70 @@
                     android:gravity="center_horizontal"
                     android:id="@+id/regenerate_layout"
                     android:layout_marginBottom="@dimen/thirtysix"
-                    android:weightSum="1"
+
 
                     >
                     <LinearLayout
-                        android:layout_width="130dp"
+                        android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:layout_weight=".5"
+                        android:layout_weight="1"
+                        android:gravity="center"
                         android:id="@+id/Enter_manually_gone">
                         <Button
                             android:id="@+id/enter_manually"
-                            android:layout_width="100dp"
-
+                            android:layout_width="150dp"
                             android:layout_height="36dp"
                             android:background="@drawable/approve_otp_button"
                             style="@style/approve_otp"
                             android:textSize="12sp"
                             android:paddingRight="@dimen/eight"
                             android:paddingLeft="@dimen/eight"
-                            android:layout_marginTop="@dimen/eight"
                             android:textStyle="bold"
-                            android:layout_weight=".5"
-                            android:layout_marginRight="@dimen/twelve"
-                            android:layout_marginLeft="@dimen/twentyfour"
                             android:text="@string/enter_manually"
-
-
                             />
                     </LinearLayout>
                     <LinearLayout
-                        android:layout_width="130dp"
+                        android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:layout_weight=".5"
+                        android:layout_weight="1"
                         android:visibility="gone"
+                        android:gravity="center"
                         android:id="@+id/Regenerate_layout_gone">
 
                         <Button
                             android:id="@+id/retry"
-                            android:layout_width="100dp"
+                            android:layout_width="150dp"
                             android:layout_height="36dp"
                             android:background="@drawable/approve_otp_button"
                             style="@style/approve_otp"
+                            android:textSize="12sp"
                             android:paddingRight="@dimen/eight"
                             android:paddingLeft="@dimen/eight"
-                            android:layout_marginLeft="@dimen/twelve"
-                            android:layout_marginTop="@dimen/eight"
-                            android:textSize="12sp"
                             android:textStyle="bold"
-                            android:layout_weight=".5"
-                            android:layout_marginRight="@dimen/twentyfour"
                             android:text="@string/regenerate_otp" />
                     </LinearLayout>
 
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/pin_layout_gone"
+                        android:visibility="gone"
+                        >
+
+                        <Button
+                            android:id="@+id/pin"
+                            android:layout_width="150dp"
+                            android:layout_height="36dp"
+                            android:background="@drawable/approve_otp_button"
+                            style="@style/approve_otp"
+                            android:textSize="12sp"
+                            android:paddingRight="@dimen/eight"
+                            android:paddingLeft="@dimen/eight"
+                            android:textStyle="bold"
+                            android:text="@string/password_value" />
+                    </LinearLayout>
 
 
                 </LinearLayout>
@@ -231,4 +243,4 @@
 
     </LinearLayout>
 
-</LinearLayout><!-- From: file:/home/franklin/AndroidStudioProjects/new/android-sdk-test-project/CustomBrowser/res/layout/retry_otp.xml -->
+</LinearLayout><!-- From: file:/Users/piyushjain/Desktop/android-sdk-test-project/CustomBrowser/res/layout/retry_otp.xml -->
