@@ -126,6 +126,27 @@
                     <LinearLayout
                         android:layout_width="0dp"
                         android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/pin_layout_gone"
+                        android:visibility="gone">
+
+                        <Button
+                            android:id="@+id/pin"
+                            android:layout_width="150dp"
+                            android:layout_height="36dp"
+                            android:background="@drawable/approve_otp_button"
+                            style="@style/approve_otp"
+                            android:paddingRight="@dimen/eight"
+                            android:paddingLeft="@dimen/eight"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            android:text="@string/password_value" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
                         android:layout_height="wrap_content"
                         android:gravity="center"
                         android:id="@+id/Enter_manually_gone">
@@ -163,26 +184,7 @@
                             android:text="@string/regenerate_otp" />
                     </LinearLayout>
 
-                    <LinearLayout
-                        android:layout_width="0dp"
-                        android:layout_weight="1"
-                        android:gravity="center"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/pin_layout_gone"
-                        android:visibility="gone">
 
-                        <Button
-                            android:id="@+id/pin"
-                            android:layout_width="150dp"
-                            android:layout_height="36dp"
-                            android:background="@drawable/approve_otp_button"
-                            style="@style/approve_otp"
-                            android:paddingRight="@dimen/eight"
-                            android:paddingLeft="@dimen/eight"
-                            android:textSize="12sp"
-                            android:textStyle="bold"
-                            android:text="@string/password_value" />
-                    </LinearLayout>
 
 
 
@@ -256,4 +258,4 @@
 
 
 
-</LinearLayout><!-- From: file:/Users/piyushjain/Desktop/android-sdk-test-project/CustomBrowser/res/layout/wait_for_otp.xml -->
+</LinearLayout><!-- From: file:/Users/piyushjain/Desktop/android-sdk-test-project%20(1)/android-sdk-test-project/CustomBrowser/res/layout/wait_for_otp.xml -->
