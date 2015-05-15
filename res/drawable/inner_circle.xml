@@ -4,4 +4,4 @@
     <solid android:angle="360"
         android:color="#1E90FF"/>
     <size android:width="8dp" android:height="8dp"/>
-</shape><!-- From: file:/Users/piyushjain/Desktop/android-sdk-test-project%20(1)/android-sdk-test-project/CustomBrowser/res/drawable/inner_circle.xml -->
+</shape>
