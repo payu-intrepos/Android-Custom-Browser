@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="otp">otp</string>
+    <string name="pin">pin</string>
+    <string name="password_value">Password</string>
+    <string name="pin_c">PIN</string>
+    <string name="waiting_for_otp">Waiting for OTP</string>
+    <string name="approve_otp">Approve</string>
+    <string name="authenticate_with">Select an option for Faster Payment</string>
+    <string name="incorrect_otp">INCORRECT OTP ENTERED</string>
+    <string name="regenerate_otp">Regenerate OTP</string>
+
+    <string name="regenerate_otp_text">It is taking long.You may...</string>
+    <string name="enter_manually">Enter Manually</string>
+    <string name="card_not_registered_with_pin">Your card has not been registered for PIN yet. Do you want to continue with PIN?</string>
+    <string name="register_for_pin">REGISTER FOR PIN</string>
+    <string name="use_sms_otp">USE SMS OTP</string>
+    <string name="detect_otp">detectOtp</string>
+    <string name="find_otp">findOtp</string>
+    <string name="process_otp">process_otp</string>
+    <string name="detect_bank">detectBank</string>
+    <string name="init">init</string>
+    <string name="result">result</string>
+    <string name="regenerate">regenerate</string>
+    <string name="enter_otp">enterOTP</string>
+    <string name="enter_pin">enterPIN</string>
+    <string name="retry_otp">retryOTP</string>
+    <string name="error">error</string>
+    <string name="register">register</string>
+    <string name="choose">choose</string>
+    <string name="sms_otp">SMS OTP</string>
+    <string name="reg_otp">REGENERATE OTP</string>
+    <string name="password">PASSWORD</string>
+    <string name="regen_otp">regenerate_otp</string>
+    <string name="bank_page_loading">Please wait. Bank page is loading..</string>
+    <string name="missing_txn_id">Missing Transaction ID</string>
+
+    <string name="approved_otp">approved OTP</string>
+    <string name="enter_manually_log">enterManually</string>
+
+    <string name="detecting_bank">detecting bank</string>
+
+    <string name="detecting_page">detecting page</string>
+
+    <string name="success">success</string>
+
+    <string name="failure">failure</string>
+
+    <string name="cancel">cancel</string>
+
+    <string name="otp_wv">OTP_WV</string>
+
+    <string name="pin_wv">PIN_WV</string>
+
+    <string name="incorrect_OTP_2">incorrectOTP</string>
+    <string name="incorrect_pin">incorrectPIN</string>
+    <string name="otp_received">OTP Received</string>
+    <string name="incorrect_password">Incorrect Password</string>
+    <string name="retry">retry...</string>
+
+    <!--Net Banking-->
+    <string name="populate_user_id">populate_user_id</string>
+    <string name="btn_action">btn_action</string>
+</resources>
