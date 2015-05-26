@@ -1,5 +1,3 @@
-Welcome to the Android-Custom-Browser wiki!
-
 ## For Android Studio (without sdk)
 
 ######1. Download the [CustomBrowser-release.aar](https://github.com/payu-intrepos/Android-Custom-Browser/blob/master/CustomBrowser-release.aar) file from github. 
