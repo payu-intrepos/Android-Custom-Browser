@@ -46,7 +46,7 @@ Welcome to the Android-Custom-Browser wiki!
 i. id of frame layout should be parent  
 ii. default visibility of frame layout should be “gone”.  CustomBrowser will handle the same.
 
-######6. Make sure that your Activity is able to support Fragments 
+######6. Make sure that your Activity is able to support Fragments (v7 support library)  
 
 ######7. Inside your Activiy onCreate() function add the following (Please make sure to change R.id.webiew to the id of your webview) 
 
@@ -229,7 +229,7 @@ ii. default visibility of frame layout should be “gone”.  CustomBrowser will
             return progDialog;
         }
 
-######10. Add the following resources in corresponding folders
+######10. Add the following resources in corresponding folders/files. 
 	
 a.In _drawable-xxhdp_  
     l_icon1.png  
@@ -240,8 +240,20 @@ a.In _drawable-xxhdp_
 b. In _layout_  
 prog_dialog.xml
 
-c. In _style_  
-ProgressDialog.xml
+c. In _values/styles.xml_  
+Add style named ProgressDialog:  
+
+        <style name="ProgressDialog" parent="@android:style/Theme.Dialog">
+            <item name="android:windowFullscreen">true</item>
+            <item name="android:windowFrame">@null</item>
+            <item name="android:windowBackground">@android:color/transparent</item>
+            <item name="android:windowIsFloating">true</item>
+            <item name="android:windowContentOverlay">@null</item>
+            <item name="android:windowTitleStyle">@null</item>
+            <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+            <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+            <item name="android:backgroundDimEnabled">true</item>
+        </style>
 	
 e. In _Animation_  
 fade_in.xml  
