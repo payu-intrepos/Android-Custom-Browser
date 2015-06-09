@@ -43,7 +43,7 @@
                 android:layout_height="wrap_content">
                 <include
                     android:id="@+id/progress"
-                    layout="@layout/progressdialog"
+                    layout="@layout/cb_progressdialog"
                     ></include>
 
 
@@ -194,35 +194,36 @@
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
                 android:gravity="bottom"
-                android:layout_height="30dp"
-                android:weightSum="1"
+                android:layout_gravity="bottom"
+                android:layout_height="wrap_content"
                 android:background="@drawable/rectangle_box"
                 >
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="30dp"
+                    android:layout_alignParentLeft="true"
                     android:orientation="horizontal"
-                    android:layout_alignParentLeft="true">
+                    android:gravity="left">
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="30dp"
-                        android:gravity="center"
+                        android:gravity="center_vertical"
                         android:textSize="@dimen/twelveScaled"
                         android:textColor="@color/cb_textColor"
                         android:drawablePadding="@dimen/four"
                         android:textStyle="bold"
-                        android:layout_marginLeft="@dimen/eight"
+                        android:layout_marginLeft="5dp"
                         android:drawableRight="@drawable/trusticon"
                         />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="30dp"
-                        android:textColor="@color/cb_textColor"
-                        android:drawablePadding="@dimen/four"
                         android:textSize="15sp"
                         android:text="Powered by"
                         android:gravity="center_vertical"
+                        android:textColor="@color/cb_textColor"
+                        android:drawablePadding="@dimen/four"
                         android:layout_marginLeft="@dimen/four"
                         android:textStyle="normal"
 
@@ -239,16 +240,17 @@
                         android:drawableLeft="@drawable/logo_payu"
                         />
                 </LinearLayout>
-                <LinearLayout  android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
 
-                    android:layout_alignParentRight="true">
+                <LinearLayout  android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    >
                     <ImageView
                         android:id="@+id/bank_logo"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:paddingRight="5dp"
                         android:layout_gravity="right|center_vertical"
-                        android:paddingRight="10dp"
                         />
                 </LinearLayout>
             </RelativeLayout>
@@ -258,4 +260,4 @@
 
 
 
-</LinearLayout>
+</LinearLayout><!-- From: file:/home/franklin/AndroidStudioProjects/test%20for%20mulitple%20instances/android-sdk-test-project/CustomBrowser/res/layout/wait_for_otp.xml -->

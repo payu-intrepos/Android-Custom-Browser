@@ -5,6 +5,7 @@
     android:layout_height="match_parent">l
 <include
     android:id="@+id/progress"
-    layout="@layout/progressdialog"
+    layout="@layout/cb_progressdialog"
     ></include>
 </LinearLayout>
+<!-- From: file:/home/franklin/AndroidStudioProjects/test%20for%20mulitple%20instances/android-sdk-test-project/CustomBrowser/res/layout/mainprogress.xml -->
