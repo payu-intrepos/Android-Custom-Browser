@@ -69,7 +69,7 @@
     <string name="pin">pin</string>
     <string name="pin_c">PIN</string>
     <string name="pin_wv">PIN_WV</string>
-    <string name="populate_user_id">populate_useer_id</string>
+    <string name="populate_user_id">populate_user_id</string>
     <string name="process_otp">process_otp</string>
     <string name="reg_otp">REGENERATE OTP</string>
     <string name="regen_otp">regenerate_otp</string>
