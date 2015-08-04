@@ -8,4 +8,4 @@
         android:toAlpha="0.1"
         android:interpolator="@android:anim/accelerate_interpolator"
         android:duration="500"/>
-</set><!-- From: file:/home/franklin/AndroidStudioProjects/gitlab/android-sdk-test-project/CustomBrowser/res/anim/cb_face_out.xml -->
+</set><!-- From: file:/home/minie/AndroidStudioProjects/HDFCIssueFix/latestcode/android-sdk-test-project/CustomBrowser/res/anim/cb_face_out.xml -->

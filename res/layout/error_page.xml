@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/cb_background"
+    android:paddingTop="40dp"
+    android:paddingBottom="40dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ERROR_TITLE"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:id="@+id/error_title"/>
+ <!--   <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:fontFamily="sans-serif-light"
+        android:textSize="18sp"
+        android:text="ERROR_MESSAGE"
+        android:id="@+id/error_message"
+        android:paddingTop="10dp"
+        android:layout_gravity="center_horizontal"/>-->
+    
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_gravity="center_horizontal"
+       android:paddingTop="20dp"
+       android:layout_height="wrap_content">
+       <View
+           android:layout_width="0dp"
+           android:layout_height="wrap_content"
+           android:layout_weight="1">
+           </View>
+    <Button
+        android:text="@string/b_cancel"
+        android:id="@+id/cancel"
+        android:layout_width="150dp"
+        android:layout_height="36dp"
+        android:background="@drawable/approve_otp_button"
+        style="@style/approve_otp"
+        android:textSize="12sp"
+        android:paddingRight="@dimen/eight"
+        android:paddingLeft="@dimen/eight"
+        android:textStyle="bold"/>
+     <!--  <View
+           android:layout_width="0dp"
+           android:layout_height="wrap_content"
+           android:layout_weight="1">
+       </View>
+       <Button
+           android:text="@string/b_retry"
+           android:id="@+id/retry"
+           android:layout_width="150dp"
+           android:layout_height="36dp"
+           android:background="@drawable/approve_otp_button"
+           style="@style/approve_otp"
+           android:textSize="12sp"
+           android:paddingRight="@dimen/eight"
+           android:paddingLeft="@dimen/eight"
+           android:textStyle="bold"/>-->
+       <View
+           android:layout_width="0dp"
+           android:layout_height="wrap_content"
+           android:layout_weight="1">
+       </View>
+   </LinearLayout>
+
+</LinearLayout><!-- From: file:/home/minie/AndroidStudioProjects/HDFCIssueFix/latestcode/android-sdk-test-project/CustomBrowser/res/layout/error_page.xml -->

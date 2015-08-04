@@ -45,6 +45,14 @@
                     android:id="@+id/progress"
                     layout="@layout/cb_progressdialog"
                     ></include>
+                <TextView android:id="@+id/timer"
+                    android:layout_marginTop="@dimen/four"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="18sp"
+                    android:textStyle="normal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                </TextView>
                 <TextView
                     android:id="@+id/waiting"
                     android:layout_width="wrap_content"
@@ -257,4 +265,4 @@
 
 
 
-</LinearLayout><!-- From: file:/home/franklin/AndroidStudioProjects/gitlab/android-sdk-test-project/CustomBrowser/res/layout/wait_for_otp.xml -->
+</LinearLayout><!-- From: file:/home/minie/AndroidStudioProjects/HDFCIssueFix/latestcode/android-sdk-test-project/CustomBrowser/res/layout/wait_for_otp.xml -->
