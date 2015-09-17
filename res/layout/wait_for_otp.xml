@@ -34,7 +34,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
-
             <LinearLayout
                 android:orientation="vertical"
                 android:gravity="center"
@@ -45,6 +44,7 @@
                     android:id="@+id/progress"
                     layout="@layout/cb_progressdialog"
                     ></include>
+
                 <TextView android:id="@+id/timer"
                     android:layout_marginTop="@dimen/four"
                     android:fontFamily="sans-serif-light"
@@ -265,4 +265,4 @@
 
 
 
-</LinearLayout><!-- From: file:/home/minie/AndroidStudioProjects/gitlatestcustombrowser/android-sdk-test-project/CustomBrowser/res/layout/wait_for_otp.xml -->
+</LinearLayout><!-- From: file:/home/minie/AndroidStudioProjects/optimised/gitlatestcustombrowser/android-sdk-test-project/CustomBrowser/res/layout/wait_for_otp.xml -->
