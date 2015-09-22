@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/home/minie/AndroidStudioProjects/optimised/gitlatestcustombrowser/android-sdk-test-project/CustomBrowser/res/values/colors.xml -->
+    <!-- From: file:/Users/franklin/AndroidStudioProjects/gitlab/android-sdk-test-project/CustomBrowser/res/values/colors.xml -->
     <eat-comment/>
     <color name="cb_background">#f6f6f6</color>
     <color name="cb_blue_button">#368ecd</color>
@@ -16,7 +16,7 @@
     <color name="cb_otpReceivedColor">#769b12</color>
     <color name="cb_textColor">#8f8d8d</color>
     <color name="payu_blue">#368ecd</color>
-    <!-- From: file:/home/minie/AndroidStudioProjects/optimised/gitlatestcustombrowser/android-sdk-test-project/CustomBrowser/res/values/dimens.xml -->
+    <!-- From: file:/Users/franklin/AndroidStudioProjects/gitlab/android-sdk-test-project/CustomBrowser/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
@@ -36,7 +36,7 @@
     <dimen name="twelveScaled">12sp</dimen>
     <dimen name="twentyfour">24dp</dimen>
     <dimen name="two">2dp</dimen>
-    <!-- From: file:/home/minie/AndroidStudioProjects/optimised/gitlatestcustombrowser/android-sdk-test-project/CustomBrowser/res/values/strings.xml -->
+    <!-- From: file:/Users/franklin/AndroidStudioProjects/gitlab/android-sdk-test-project/CustomBrowser/res/values/strings.xml -->
     <eat-comment/>
     <string name="analytics_waiting_for_otp">waiting_for_otp</string>
     <string name="approve_otp">Approve</string>
@@ -93,7 +93,7 @@
     <string name="success">success</string>
     <string name="use_sms_otp">USE SMS OTP</string>
     <string name="waiting_for_otp">Waiting for OTP</string>
-    <!-- From: file:/home/minie/AndroidStudioProjects/optimised/gitlatestcustombrowser/android-sdk-test-project/CustomBrowser/res/values/styles.xml -->
+    <!-- From: file:/Users/franklin/AndroidStudioProjects/gitlab/android-sdk-test-project/CustomBrowser/res/values/styles.xml -->
     <eat-comment/>
     <style name="ProgressDialog" parent="@android:style/Theme.Dialog">
         <item name="android:windowFullscreen">true</item>
