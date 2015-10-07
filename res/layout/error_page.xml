@@ -37,15 +37,15 @@
            android:layout_weight="1">
            </View>
     <Button
-        android:text="@string/b_cancel"
+        android:text="@string/cb_b_cancel"
         android:id="@+id/cancel"
         android:layout_width="150dp"
         android:layout_height="36dp"
         android:background="@drawable/approve_otp_button"
-        style="@style/approve_otp"
+        style="@style/cb_approve_otp"
         android:textSize="12sp"
-        android:paddingRight="@dimen/eight"
-        android:paddingLeft="@dimen/eight"
+        android:paddingRight="@dimen/cb_eight"
+        android:paddingLeft="@dimen/cb_eight"
         android:textStyle="bold"/>
      <!--  <View
            android:layout_width="0dp"
@@ -70,4 +70,4 @@
        </View>
    </LinearLayout>
 
-</LinearLayout><!-- From: file:/Users/franklin/AndroidStudioProjects/gitlab/android-sdk-test-project/CustomBrowser/res/layout/error_page.xml -->
+</LinearLayout><!-- From: file:/Users/Minie/AndroidStudioProjects/AndroidStudioProjects/gingerbreadfix/android-sdk-test-project/CustomBrowser/res/layout/error_page.xml -->

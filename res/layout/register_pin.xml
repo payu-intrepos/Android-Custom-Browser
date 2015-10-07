@@ -24,8 +24,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="@color/cb_textColor"
-                android:layout_marginTop="@dimen/eight"
-                android:layout_marginBottom="@dimen/eighteen"
+                android:layout_marginTop="@dimen/cb_eight"
+                android:layout_marginBottom="@dimen/cb_eighteen"
                 android:drawableTop="@drawable/slider"
                 android:gravity="center"/>
         </LinearLayout>
@@ -37,17 +37,17 @@
             android:textColor="@color/cb_dark_grey"
             android:fontFamily="sans-serif-light"
             android:textSize="18sp"
-            android:text="@string/card_not_registered_with_pin"
-            android:layout_marginBottom="@dimen/sixteen"
+            android:text="@string/cb_card_not_registered_with_pin"
+            android:layout_marginBottom="@dimen/cb_sixteen"
             android:gravity="center"/>
 
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingLeft="@dimen/eight"
-            android:layout_marginBottom="@dimen/thirtysix"
-            android:paddingRight="@dimen/eight">
+            android:paddingLeft="@dimen/cb_eight"
+            android:layout_marginBottom="@dimen/cb_thirtysix"
+            android:paddingRight="@dimen/cb_eight">
 
             <Button
                 android:id="@+id/pin"
@@ -55,11 +55,11 @@
                 android:layout_height="wrap_content"
 
                 android:layout_weight="1"
-                android:text="@string/register_for_pin"
+                android:text="@string/cb_register_for_pin"
                 android:textSize="17dp"
                 android:background="@drawable/approve_otp_button"
-                android:layout_marginRight="@dimen/eight"
-                style="@style/approve_otp" />
+                android:layout_marginRight="@dimen/cb_eight"
+                style="@style/cb_approve_otp" />
 
             <Button
                 android:id="@+id/otp"
@@ -67,10 +67,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/use_sms_otp"
-                android:layout_marginLeft="@dimen/eight"
+                android:text="@string/cb_use_sms_otp"
+                android:layout_marginLeft="@dimen/cb_eight"
                 android:background="@drawable/approve_otp_button"
-                style="@style/approve_otp" />
+                style="@style/cb_approve_otp" />
 
         </LinearLayout>
         <RelativeLayout
@@ -92,9 +92,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="30dp"
                     android:gravity="center_vertical"
-                    android:textSize="@dimen/twelveScaled"
+                    android:textSize="@dimen/cb_twelveScaled"
                     android:textColor="@color/cb_textColor"
-                    android:drawablePadding="@dimen/four"
+                    android:drawablePadding="@dimen/cb_four"
                     android:textStyle="bold"
                     android:layout_marginLeft="5dp"
                     android:drawableRight="@drawable/trusticon"
@@ -106,8 +106,8 @@
                     android:text="Powered by"
                     android:gravity="center_vertical"
                     android:textColor="@color/cb_textColor"
-                    android:drawablePadding="@dimen/four"
-                    android:layout_marginLeft="@dimen/four"
+                    android:drawablePadding="@dimen/cb_four"
+                    android:layout_marginLeft="@dimen/cb_four"
                     android:textStyle="normal"
 
                     />
@@ -115,11 +115,11 @@
                     android:layout_width="wrap_content"
                     android:layout_height="20dp"
                     android:gravity="center"
-                    android:textSize="@dimen/twelveScaled"
+                    android:textSize="@dimen/cb_twelveScaled"
                     android:textColor="@color/cb_textColor"
-                    android:drawablePadding="@dimen/four"
+                    android:drawablePadding="@dimen/cb_four"
                     android:textStyle="bold"
-                    android:layout_marginLeft="@dimen/four"
+                    android:layout_marginLeft="@dimen/cb_four"
                     android:drawableLeft="@drawable/logo_payu"
                     />
             </LinearLayout>
@@ -139,4 +139,4 @@
         </RelativeLayout>
     </LinearLayout>
 
-</LinearLayout><!-- From: file:/Users/franklin/AndroidStudioProjects/gitlab/android-sdk-test-project/CustomBrowser/res/layout/register_pin.xml -->
+</LinearLayout><!-- From: file:/Users/Minie/AndroidStudioProjects/AndroidStudioProjects/gingerbreadfix/android-sdk-test-project/CustomBrowser/res/layout/register_pin.xml -->

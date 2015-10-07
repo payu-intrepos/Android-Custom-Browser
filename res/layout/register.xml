@@ -20,7 +20,7 @@
     android:textColor="@color/cb_otpColor"
     android:fontFamily="sans-serif-bold"
     android:textSize="18sp"
-    android:text="@string/registeration_detail">
+    android:text="@string/cb_registeration_detail">
 </TextView>
     <RelativeLayout
         android:orientation="horizontal"
@@ -41,9 +41,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="30dp"
                 android:gravity="center_vertical"
-                android:textSize="@dimen/twelveScaled"
+                android:textSize="@dimen/cb_twelveScaled"
                 android:textColor="@color/cb_textColor"
-                android:drawablePadding="@dimen/four"
+                android:drawablePadding="@dimen/cb_four"
                 android:textStyle="bold"
                 android:layout_marginLeft="5dp"
                 android:drawableRight="@drawable/trusticon"
@@ -55,8 +55,8 @@
                 android:text="Powered by"
                 android:gravity="center_vertical"
                 android:textColor="@color/cb_textColor"
-                android:drawablePadding="@dimen/four"
-                android:layout_marginLeft="@dimen/four"
+                android:drawablePadding="@dimen/cb_four"
+                android:layout_marginLeft="@dimen/cb_four"
                 android:textStyle="normal"
 
                 />
@@ -64,11 +64,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="20dp"
                 android:gravity="center"
-                android:textSize="@dimen/twelveScaled"
+                android:textSize="@dimen/cb_twelveScaled"
                 android:textColor="@color/cb_textColor"
-                android:drawablePadding="@dimen/four"
+                android:drawablePadding="@dimen/cb_four"
                 android:textStyle="bold"
-                android:layout_marginLeft="@dimen/four"
+                android:layout_marginLeft="@dimen/cb_four"
                 android:drawableLeft="@drawable/logo_payu"
                 />
         </LinearLayout>
@@ -87,4 +87,4 @@
         </LinearLayout>
     </RelativeLayout>
 </LinearLayout>
-<!-- From: file:/Users/franklin/AndroidStudioProjects/gitlab/android-sdk-test-project/CustomBrowser/res/layout/register.xml -->
+<!-- From: file:/Users/Minie/AndroidStudioProjects/AndroidStudioProjects/gingerbreadfix/android-sdk-test-project/CustomBrowser/res/layout/register.xml -->

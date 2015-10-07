@@ -31,9 +31,9 @@
                       android:layout_width="match_parent"
                       android:layout_height="wrap_content"
                       android:textColor="@color/cb_textColor"
-                      android:textSize="@dimen/sixteenScaled"
-                      android:layout_marginBottom="@dimen/eight"
-                      android:layout_marginTop="@dimen/eight"
+                      android:textSize="@dimen/cb_sixteenScaled"
+                      android:layout_marginBottom="@dimen/cb_eight"
+                      android:layout_marginTop="@dimen/cb_eight"
                       android:drawableTop="@drawable/slider"
                       android:gravity="center"/>
               </LinearLayout>
@@ -41,7 +41,7 @@
                 android:orientation="vertical"
                 android:gravity="center"
                 android:layout_centerInParent="true"
-                android:layout_marginBottom="@dimen/sixteen"
+                android:layout_marginBottom="@dimen/cb_sixteen"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 >
@@ -54,12 +54,12 @@
                     android:id="@+id/waiting"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/bank_page_loading"
+                    android:text="@string/cb_bank_page_loading"
                     android:textColor="@color/cb_textColor"
                     android:textStyle="bold"
-                    android:layout_marginTop="@dimen/twelve"
+                    android:layout_marginTop="@dimen/cb_twelve"
                     android:textAppearance="?android:attr/textAppearanceMedium"
-                    android:layout_marginBottom="@dimen/eight" />
+                    android:layout_marginBottom="@dimen/cb_eight" />
 
             </LinearLayout>
               <RelativeLayout
@@ -80,9 +80,9 @@
                           android:layout_width="wrap_content"
                           android:layout_height="30dp"
                           android:gravity="center_vertical"
-                          android:textSize="@dimen/twelveScaled"
+                          android:textSize="@dimen/cb_twelveScaled"
                           android:textColor="@color/cb_textColor"
-                          android:drawablePadding="@dimen/four"
+                          android:drawablePadding="@dimen/cb_four"
                           android:textStyle="bold"
                           android:layout_marginLeft="5dp"
                           android:drawableRight="@drawable/trusticon"
@@ -94,8 +94,8 @@
                           android:text="Powered by"
                           android:gravity="center_vertical"
                           android:textColor="@color/cb_textColor"
-                          android:drawablePadding="@dimen/four"
-                          android:layout_marginLeft="@dimen/four"
+                          android:drawablePadding="@dimen/cb_four"
+                          android:layout_marginLeft="@dimen/cb_four"
                           android:textStyle="normal"
 
                           />
@@ -103,11 +103,11 @@
                           android:layout_width="wrap_content"
                           android:layout_height="20dp"
                           android:gravity="center"
-                          android:textSize="@dimen/twelveScaled"
+                          android:textSize="@dimen/cb_twelveScaled"
                           android:textColor="@color/cb_textColor"
-                          android:drawablePadding="@dimen/four"
+                          android:drawablePadding="@dimen/cb_four"
                           android:textStyle="bold"
-                          android:layout_marginLeft="@dimen/four"
+                          android:layout_marginLeft="@dimen/cb_four"
                           android:drawableLeft="@drawable/logo_payu"
                           />
                   </LinearLayout>
@@ -129,4 +129,4 @@
 
     </LinearLayout>
 
-</LinearLayout><!-- From: file:/Users/franklin/AndroidStudioProjects/gitlab/android-sdk-test-project/CustomBrowser/res/layout/loading.xml -->
+</LinearLayout><!-- From: file:/Users/Minie/AndroidStudioProjects/AndroidStudioProjects/gingerbreadfix/android-sdk-test-project/CustomBrowser/res/layout/loading.xml -->

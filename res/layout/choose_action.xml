@@ -25,9 +25,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="@color/cb_textColor"
-                android:textSize="@dimen/sixteenScaled"
-                android:layout_marginBottom="@dimen/twelve"
-                android:layout_marginTop="@dimen/eight"
+                android:textSize="@dimen/cb_sixteenScaled"
+                android:layout_marginBottom="@dimen/cb_twelve"
+                android:layout_marginTop="@dimen/cb_eight"
                 android:drawableTop="@drawable/slider"
                 android:gravity="center"/>
         </LinearLayout>
@@ -47,18 +47,18 @@
                 android:textStyle="normal"
                 android:textColor="@color/cb_errorRed"
                 android:text="Incorrect OTP!"
-                android:layout_marginBottom="@dimen/four"/>
+                android:layout_marginBottom="@dimen/cb_four"/>
 
             <TextView
                 android:id="@+id/choose_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/authenticate_with"
+                android:text="@string/cb_authenticate_with"
                 android:textColor="@color/cb_dark_grey"
 
                 android:fontFamily="sans-serif-light"
                 android:textSize="18sp"
-                android:layout_marginBottom="@dimen/twelve"
+                android:layout_marginBottom="@dimen/cb_twelve"
                 android:gravity="center"/>
             <LinearLayout
                 android:layout_width="match_parent"
@@ -67,7 +67,7 @@
 
                 <LinearLayout
                     android:orientation="horizontal"
-                    android:layout_marginBottom="@dimen/sixteen"
+                    android:layout_marginBottom="@dimen/cb_sixteen"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
@@ -109,7 +109,7 @@
                             android:textSize="13sp"
                             android:layout_gravity="right"
                             android:layout_centerInParent="true"
-                            android:text="@string/sms_otp"
+                            android:text="@string/cb_sms_otp"
                             android:textColor="@color/cb_textColor"
                             android:textStyle="bold"
                             android:drawableTop="@drawable/otp_button_selector"/>
@@ -139,9 +139,9 @@
                             android:layout_width="wrap_content"
                             android:layout_height="30dp"
                             android:gravity="center_vertical"
-                            android:textSize="@dimen/twelveScaled"
+                            android:textSize="@dimen/cb_twelveScaled"
                             android:textColor="@color/cb_textColor"
-                            android:drawablePadding="@dimen/four"
+                            android:drawablePadding="@dimen/cb_four"
                             android:textStyle="bold"
                             android:layout_marginLeft="5dp"
                             android:drawableRight="@drawable/trusticon"
@@ -153,8 +153,8 @@
                             android:text="Powered by"
                             android:gravity="center_vertical"
                             android:textColor="@color/cb_textColor"
-                            android:drawablePadding="@dimen/four"
-                            android:layout_marginLeft="@dimen/four"
+                            android:drawablePadding="@dimen/cb_four"
+                            android:layout_marginLeft="@dimen/cb_four"
                             android:textStyle="normal"
 
                             />
@@ -162,11 +162,11 @@
                             android:layout_width="wrap_content"
                             android:layout_height="20dp"
                             android:gravity="center"
-                            android:textSize="@dimen/twelveScaled"
+                            android:textSize="@dimen/cb_twelveScaled"
                             android:textColor="@color/cb_textColor"
-                            android:drawablePadding="@dimen/four"
+                            android:drawablePadding="@dimen/cb_four"
                             android:textStyle="bold"
-                            android:layout_marginLeft="@dimen/four"
+                            android:layout_marginLeft="@dimen/cb_four"
                             android:drawableLeft="@drawable/logo_payu"
                             />
                     </LinearLayout>
@@ -189,4 +189,4 @@
         </LinearLayout>
     </LinearLayout>
 
-</LinearLayout><!-- From: file:/Users/franklin/AndroidStudioProjects/gitlab/android-sdk-test-project/CustomBrowser/res/layout/choose_action.xml -->
+</LinearLayout><!-- From: file:/Users/Minie/AndroidStudioProjects/AndroidStudioProjects/gingerbreadfix/android-sdk-test-project/CustomBrowser/res/layout/choose_action.xml -->

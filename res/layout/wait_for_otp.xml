@@ -24,9 +24,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="@color/cb_textColor"
-                android:textSize="@dimen/sixteenScaled"
-                android:layout_marginTop="@dimen/eight"
-                android:layout_marginBottom="@dimen/eight"
+                android:textSize="@dimen/cb_sixteenScaled"
+                android:layout_marginTop="@dimen/cb_eight"
+                android:layout_marginBottom="@dimen/cb_eight"
                 android:drawableTop="@drawable/slider"
                 android:gravity="center"/>
         </LinearLayout>
@@ -37,7 +37,7 @@
             <LinearLayout
                 android:orientation="vertical"
                 android:gravity="center"
-                android:layout_marginBottom="@dimen/twentyfour"
+                android:layout_marginBottom="@dimen/cb_twentyfour"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
                 <include
@@ -46,7 +46,7 @@
                     ></include>
 
                 <TextView android:id="@+id/timer"
-                    android:layout_marginTop="@dimen/four"
+                    android:layout_marginTop="@dimen/cb_four"
                     android:fontFamily="sans-serif-light"
                     android:textSize="18sp"
                     android:textStyle="normal"
@@ -57,24 +57,24 @@
                     android:id="@+id/waiting"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/waiting_for_otp"
+                    android:text="@string/cb_waiting_for_otp"
                     android:textColor="@color/cb_dark_grey"
                     android:fontFamily="sans-serif-light"
                     android:textSize="18sp"
                     android:textStyle="normal"
-                    android:layout_marginTop="@dimen/eight"
+                    android:layout_marginTop="@dimen/cb_eight"
                     android:textAppearance="?android:attr/textAppearanceMedium"
-                    android:layout_marginBottom="@dimen/eight" />
+                    android:layout_marginBottom="@dimen/cb_eight" />
                 <TextView
                     android:id="@+id/otp_recieved"
                     android:layout_width="wrap_content"
                     android:fontFamily="sans-serif-light"
                     android:textSize="18sp"
                     android:visibility="gone"
-                    android:text="@string/otp_received"
+                    android:text="@string/cb_otp_received"
                     android:layout_height="wrap_content"
                     android:textColor="@color/cb_otpReceivedColor"
-                    android:layout_marginTop="@dimen/twentyfour"
+                    android:layout_marginTop="@dimen/cb_twentyfour"
                     ></TextView>
                 <EditText
                     android:id="@+id/otp_sms"
@@ -91,7 +91,7 @@
                     android:hint="Enter OTP"
                     android:maxLength="8"
 
-                    android:layout_marginBottom="@dimen/eight">
+                    android:layout_marginBottom="@dimen/cb_eight">
                 <requestFocus > </requestFocus>
                 </EditText>
                 <Button
@@ -99,26 +99,26 @@
                     android:layout_width="180dp"
                     android:layout_height="36dp"
                     android:background="@drawable/approve_otp_button"
-                    style="@style/approve_otp"
+                    style="@style/cb_approve_otp"
                     android:textSize="17sp"
                     android:alpha=".3"
                     android:clickable="false"
-                    android:layout_marginTop="@dimen/four"
-                    android:layout_marginBottom="@dimen/twentyfour"
+                    android:layout_marginTop="@dimen/cb_four"
+                    android:layout_marginBottom="@dimen/cb_twentyfour"
 
-                    android:text="@string/approve_otp" />
+                    android:text="@string/cb_approve_otp" />
 
                 <TextView
                     android:id="@+id/retry_text"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="@dimen/eight"
+                    android:layout_marginTop="@dimen/cb_eight"
                     android:visibility="gone"
                     android:textColor="@color/cb_dark_grey"
                     android:fontFamily="sans-serif-light"
                     android:textSize="18sp"
-                    android:layout_marginBottom="@dimen/twelve"
-                    android:text="@string/regenerate_otp_text" />
+                    android:layout_marginBottom="@dimen/cb_twelve"
+                    android:text="@string/cb_regenerate_otp_text" />
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -126,7 +126,7 @@
                     android:gravity="center_horizontal"
                     android:id="@+id/regenerate_layout"
                     android:visibility="gone"
-                    android:layout_marginBottom="@dimen/twentyfour"
+                    android:layout_marginBottom="@dimen/cb_twentyfour"
                     >
                     <LinearLayout
                         android:layout_width="0dp"
@@ -141,12 +141,12 @@
                             android:layout_width="150dp"
                             android:layout_height="36dp"
                             android:background="@drawable/approve_otp_button"
-                            style="@style/approve_otp"
-                            android:paddingRight="@dimen/eight"
-                            android:paddingLeft="@dimen/eight"
+                            style="@style/cb_approve_otp"
+                            android:paddingRight="@dimen/cb_eight"
+                            android:paddingLeft="@dimen/cb_eight"
                             android:textSize="12sp"
                             android:textStyle="bold"
-                            android:text="@string/password_value" />
+                            android:text="@string/cb_password_value" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -160,10 +160,10 @@
                             android:layout_width="150dp"
                             android:layout_height="36dp"
                             android:background="@drawable/approve_otp_button"
-                            style="@style/approve_otp"
+                            style="@style/cb_approve_otp"
                             android:textSize="12sp"
-                            android:paddingRight="@dimen/eight"
-                            android:paddingLeft="@dimen/eight"
+                            android:paddingRight="@dimen/cb_eight"
+                            android:paddingLeft="@dimen/cb_eight"
                             android:textStyle="bold"
                             android:text="Enter Manually"
                             />
@@ -181,12 +181,12 @@
                             android:layout_width="150dp"
                             android:layout_height="36dp"
                             android:background="@drawable/approve_otp_button"
-                            style="@style/approve_otp"
-                            android:paddingRight="@dimen/eight"
-                            android:paddingLeft="@dimen/eight"
+                            style="@style/cb_approve_otp"
+                            android:paddingRight="@dimen/cb_eight"
+                            android:paddingLeft="@dimen/cb_eight"
                             android:textSize="12sp"
                             android:textStyle="bold"
-                            android:text="@string/regenerate_otp" />
+                            android:text="@string/cb_regenerate_otp" />
                     </LinearLayout>
 
 
@@ -214,9 +214,9 @@
                         android:layout_width="wrap_content"
                         android:layout_height="30dp"
                         android:gravity="center_vertical"
-                        android:textSize="@dimen/twelveScaled"
+                        android:textSize="@dimen/cb_twelveScaled"
                         android:textColor="@color/cb_textColor"
-                        android:drawablePadding="@dimen/four"
+                        android:drawablePadding="@dimen/cb_four"
                         android:textStyle="bold"
                         android:layout_marginLeft="5dp"
                         android:drawableRight="@drawable/trusticon"
@@ -228,8 +228,8 @@
                         android:text="Powered by"
                         android:gravity="center_vertical"
                         android:textColor="@color/cb_textColor"
-                        android:drawablePadding="@dimen/four"
-                        android:layout_marginLeft="@dimen/four"
+                        android:drawablePadding="@dimen/cb_four"
+                        android:layout_marginLeft="@dimen/cb_four"
                         android:textStyle="normal"
 
                         />
@@ -237,11 +237,11 @@
                         android:layout_width="wrap_content"
                         android:layout_height="20dp"
                         android:gravity="center"
-                        android:textSize="@dimen/twelveScaled"
+                        android:textSize="@dimen/cb_twelveScaled"
                         android:textColor="@color/cb_textColor"
-                        android:drawablePadding="@dimen/four"
+                        android:drawablePadding="@dimen/cb_four"
                         android:textStyle="bold"
-                        android:layout_marginLeft="@dimen/four"
+                        android:layout_marginLeft="@dimen/cb_four"
                         android:drawableLeft="@drawable/logo_payu"
                         />
                 </LinearLayout>
@@ -265,4 +265,4 @@
 
 
 
-</LinearLayout><!-- From: file:/Users/franklin/AndroidStudioProjects/gitlab/android-sdk-test-project/CustomBrowser/res/layout/wait_for_otp.xml -->
+</LinearLayout><!-- From: file:/Users/Minie/AndroidStudioProjects/AndroidStudioProjects/gingerbreadfix/android-sdk-test-project/CustomBrowser/res/layout/wait_for_otp.xml -->
