@@ -21,4 +21,4 @@
             <stroke android:color="@color/cb_input_gray" android:width="2dp" />
         </shape>
     </item>
-</selector><!-- From: file:/Users/Minie/AndroidStudioProjects/AndroidStudioProjects/gingerbreadfix/android-sdk-test-project/CustomBrowser/res/drawable-xhdpi/rectangle_box.xml -->
+</selector>

@@ -49,6 +49,7 @@
                     android:layout_marginTop="@dimen/cb_four"
                     android:fontFamily="sans-serif-light"
                     android:textSize="18sp"
+                    android:textColor="@color/cb_dark_grey"
                     android:textStyle="normal"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
@@ -188,11 +189,6 @@
                             android:textStyle="bold"
                             android:text="@string/cb_regenerate_otp" />
                     </LinearLayout>
-
-
-
-
-
                 </LinearLayout>
                 </LinearLayout>
             <RelativeLayout
@@ -265,4 +261,4 @@
 
 
 
-</LinearLayout><!-- From: file:/Users/Minie/AndroidStudioProjects/AndroidStudioProjects/gingerbreadfix/android-sdk-test-project/CustomBrowser/res/layout/wait_for_otp.xml -->
+</LinearLayout>

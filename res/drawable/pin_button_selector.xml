@@ -5,4 +5,4 @@
     <item android:drawable="@drawable/password_icon_large"
         android:state_focused="true" />
     <item android:drawable="@drawable/password_icon_large" />
-</selector><!-- From: file:/Users/Minie/AndroidStudioProjects/AndroidStudioProjects/gingerbreadfix/android-sdk-test-project/CustomBrowser/res/drawable/pin_button_selector.xml -->
+</selector>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cb_otp">otp</string>
+    <string name="cb_pin">pin</string>
+    <string name="cb_password_value">Password</string>
+    <string name="cb_pin_c">PIN</string>
+    <string name="cb_waiting_for_otp">Waiting for OTP</string>
+    <string name="cb_approve_otp">Approve</string>
+    <string name="cb_authenticate_with">Select an option for Faster Payment</string>
+    <string name="cb_incorrect_otp">INCORRECT OTP ENTERED</string>
+    <string name="cb_regenerate_otp">Regenerate OTP</string>
+    <string name="cb_regenerate_otp_text">It is taking long.You may...</string>
+    <string name="cb_enter_manually">Enter Manually</string>
+    <string name="cb_card_not_registered_with_pin">Your card has not been registered for PIN yet. Do you want to continue with PIN?</string>
+    <string name="cb_register_for_pin">REGISTER FOR PIN</string>
+    <string name="cb_use_sms_otp">USE SMS OTP</string>
+    <string name="cb_detect_otp">detectOtp</string>
+    <string name="cb_find_otp">findOtp</string>
+    <string name="cb_process_otp">process_otp</string>
+    <string name="cb_detect_bank">detectBank</string>
+    <string name="cb_init">init</string>
+    <string name="cb_result">result</string>
+    <string name="cb_regenerate">regenerate</string>
+    <string name="cb_skip_screen">skipScreen</string>
+    <string name="cb_enter_otp">enterOTP</string>
+    <string name="cb_enter_pin">enterPIN</string>
+    <string name="cb_retry_otp">retryOTP</string>
+    <string name="cb_error">error</string>
+    <string name="cb_register">register</string>
+    <string name="cb_choose">choose</string>
+    <string name="cb_sms_otp">SMS OTP</string>
+    <string name="cb_reg_otp">REGENERATE OTP</string>
+    <string name="cb_password">PASSWORD</string>
+    <string name="cb_regen_otp">regenerate_otp</string>
+    <string name="cb_bank_page_loading">Please wait. Bank page is loading..</string>
+    <string name="cb_missing_txn_id">Missing Transaction ID</string>
+    <string name="cb_approved_otp">approved OTP</string>
+    <string name="cb_enter_manually_log">enterManually</string>
+    <string name="cb_detecting_bank">detecting bank</string>
+    <string name="cb_detecting_page">detecting page</string>
+    <string name="cb_success">success</string>
+    <string name="cb_failure">failure</string>
+    <string name="cb_cancel">cancel</string>
+    <string name="cb_b_cancel">Cancel</string>
+    <string name="cb_b_retry">Retry</string>
+    <string name="cb_otp_wv">OTP_WV</string>
+    <string name="cb_pin_wv">PIN_WV</string>
+    <string name="cb_incorrect_OTP_2">incorrectOTP</string>
+    <string name="cb_incorrect_pin">incorrectPIN</string>
+    <string name="cb_otp_received">OTP Received</string>
+    <string name="cb_incorrect_password">Incorrect Password</string>
+    <string name="cb_retry">retry...</string>
+
+    <string name="cb_register_option">registerOption</string>
+
+    <!--Net Banking-->
+    <string name="cb_populate_user_id">populate_user_id</string>
+    <string name="cb_btn_action">btn_action</string>
+    <string name="cb_registeration_detail">Enter your registration details</string>
+
+    <string name="cb_analytics_waiting_for_otp">waiting_for_otp</string>
+</resources>
