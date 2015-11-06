@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.payu.custombrowser"
-    android:versionCode="6"
-    android:versionName="5.2.4" >
-    
-    <uses-sdk android:minSdkVersion="9" android:targetSdkVersion="23" />
+    android:versionCode="5"
+    android:versionName="5.3" >
 
-    <uses-permission android:name="android.permission.READ_SMS" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="23" />
 
-
-    <uses-permission android:name="android.permission.RECEIVE_SMS"
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission
+        android:name="android.permission.RECEIVE_SMS"
         android:protectionLevel="signature" />
-
-
 
 </manifest>
