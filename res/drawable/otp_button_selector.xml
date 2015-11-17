@@ -5,4 +5,4 @@
     <item android:drawable="@drawable/otp_icon_large"
         android:state_focused="true" />
     <item android:drawable="@drawable/otp_icon_large" />
-</selector><!-- From: file:/Users/franklin/AndroidStudioProjects/gitlab/cvvLess/android-sdk-test-project/CustomBrowser/res/drawable/otp_button_selector.xml -->
+</selector><!-- From: file:/Users/franklin/AndroidStudioProjects/gitlab/gradle/android-sdk-test-project/payu-custom-browser/res/drawable/otp_button_selector.xml -->

@@ -4,4 +4,4 @@
     <solid android:angle="360"
         android:color="#1E90FF"/>
     <size android:width="8dp" android:height="8dp"/>
-</shape><!-- From: file:/Users/franklin/AndroidStudioProjects/gitlab/cvvLess/android-sdk-test-project/CustomBrowser/res/drawable/inner_circle.xml -->
+</shape><!-- From: file:/Users/franklin/AndroidStudioProjects/gitlab/gradle/android-sdk-test-project/payu-custom-browser/res/drawable/inner_circle.xml -->

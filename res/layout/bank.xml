@@ -39,15 +39,5 @@
                 android:gravity="center"/>
         </LinearLayout>
 
-       <!-- <ImageView
-            android:layout_gravity="right|center_vertical"
-            android:padding="5dp"
-            android:layout_height="30dp"
-            android:layout_width="30dp"
-            android:layout_alignParentRight="true"
-            android:layout_centerHorizontal="true"
-            android:src="@drawable/arrow_cb">
-        </ImageView>-->
-
     </RelativeLayout>
-</LinearLayout><!-- From: file:/Users/franklin/AndroidStudioProjects/gitlab/cvvLess/android-sdk-test-project/CustomBrowser/res/layout/bank.xml -->
+</LinearLayout><!-- From: file:/Users/franklin/AndroidStudioProjects/gitlab/gradle/android-sdk-test-project/payu-custom-browser/res/layout/bank.xml -->
