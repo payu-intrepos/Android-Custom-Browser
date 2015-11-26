@@ -14,7 +14,7 @@
         android:id="@+id/img_view"
         android:layout_alignParentLeft="true"
         android:layout_centerVertical="true"
-        android:src="@drawable/hdfc">
+        >
         </ImageView>
         <CheckBox
             android:layout_height="wrap_content"
