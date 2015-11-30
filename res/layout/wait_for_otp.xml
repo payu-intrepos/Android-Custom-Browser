@@ -12,9 +12,12 @@
         android:layout_alignParentTop="true"
         android:background="@color/cb_border"/>
     <LinearLayout
+        android:id="@+id/linear_layout_waiting_for_otp"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
         android:gravity="center_vertical">
 
         <LinearLayout
@@ -39,6 +42,8 @@
                 android:gravity="center"
                 android:layout_marginBottom="@dimen/cb_twentyfour"
                 android:layout_width="match_parent"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
                 android:layout_height="wrap_content">
                 <include
                     android:id="@+id/progress"
@@ -260,4 +265,4 @@
 
 
 
-</LinearLayout><!-- From: file:/Users/franklin/AndroidStudioProjects/gitlab/gradle/android-sdk-test-project/payu-custom-browser/res/layout/wait_for_otp.xml -->
+</LinearLayout><!-- From: file:/Users/harmeet/Documents/git/android-sdk-test-project/CustomBrowser/res/layout/wait_for_otp.xml -->

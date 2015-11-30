@@ -21,4 +21,4 @@
             <stroke android:color="@color/cb_input_gray" android:width="2dp" />
         </shape>
     </item>
-</selector><!-- From: file:/Users/franklin/AndroidStudioProjects/gitlab/gradle/android-sdk-test-project/payu-custom-browser/res/drawable-xhdpi/rectangle_box.xml -->
+</selector><!-- From: file:/Users/harmeet/Documents/git/android-sdk-test-project/CustomBrowser/res/drawable-xhdpi/rectangle_box.xml -->
