@@ -8,4 +8,4 @@
         android:toYDelta="70%"
         android:duration="500" />
 
-</set><!-- From: file:/Users/harmeet/Documents/git/android-sdk-test-project/CustomBrowser/res/anim/cb_translate.xml -->
+</set>

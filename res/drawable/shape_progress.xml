@@ -11,4 +11,4 @@
         android:left="10dp"
         android:right="10dp"
         android:top="10dp" />
-</shape><!-- From: file:/Users/harmeet/Documents/git/android-sdk-test-project/CustomBrowser/res/drawable/shape_progress.xml -->
+</shape>
