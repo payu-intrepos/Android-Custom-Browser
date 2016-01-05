@@ -1,4 +1,4 @@
-### Integration of Custom Browser (Latest version 5.3)
+### Integration of Custom Browser (Latest version 5.3.6)
 
 Note: If you are using an older version of CB please update to the latest version 5.3 for improved performance and better success rates  
 
