@@ -6,6 +6,7 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:contentDescription="@string/cb_top_arrow"
         android:layout_gravity="center"
         android:id="@+id/arrow"/>
     <FrameLayout
@@ -40,4 +41,4 @@
         </LinearLayout>
 
     </RelativeLayout>
-</LinearLayout><!-- From: file:/Users/Minie/AndroidStudioProjects/AndroidStudioProjects/harmeetissue/android-sdk-test-project/CustomBrowser/res/layout/bank.xml -->
+</LinearLayout><!-- From: file:/Users/shoaib/projects/android-sdk-test-project/CustomBrowser/res/layout/bank.xml -->

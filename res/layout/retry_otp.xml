@@ -42,7 +42,7 @@
                 android:textSize="18sp"
                 android:textStyle="normal"
                 android:textColor="@color/cb_errorRed"
-                android:text="Incorrect OTP!"
+                android:text="@string/cb_incorrect_otp_e"
                 android:layout_marginBottom="@dimen/cb_four"
 
                 android:gravity="center"/>
@@ -52,7 +52,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="@color/cb_textColor"
-                android:text="retry..."
+                android:text="@string/cb_retry"
                 android:textStyle="normal"
                 android:textSize="20sp"
                 android:layout_marginBottom="@dimen/cb_thirtysix"
@@ -68,7 +68,7 @@
 
                 android:layout_gravity="center"
                 android:layout_marginTop="@dimen/cb_twentyfour"
-                android:hint="Enter OTP"
+                android:hint="@string/cb_enter_otp_c"
                 android:maxLength="8"
                 android:layout_marginBottom="@dimen/cb_eight"/>
 
@@ -79,13 +79,11 @@
                 android:background="@drawable/approve_otp_button"
                 style="@style/cb_approve_otp"
                 android:textSize="17sp"
-
                 android:alpha=".3"
                 android:visibility="gone"
                 android:clickable="false"
                 android:layout_marginTop="@dimen/cb_eight"
                 android:layout_marginBottom="@dimen/cb_twentyfour"
-
                 android:text="@string/cb_approve_otp"
                 android:layout_gravity="center"/>
 
@@ -198,7 +196,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="30dp"
                             android:textSize="15sp"
-                            android:text="Powered by"
+                            android:text="@string/cb_powered_by"
                             android:gravity="center_vertical"
                             android:textColor="@color/cb_textColor"
                             android:drawablePadding="@dimen/cb_four"
@@ -227,6 +225,7 @@
                             android:id="@+id/bank_logo"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:contentDescription="@string/cb_bank_logo"
                             android:paddingRight="5dp"
                             android:layout_gravity="right|center_vertical"
                             />
@@ -239,4 +238,4 @@
 
     </LinearLayout>
 
-</LinearLayout><!-- From: file:/Users/Minie/AndroidStudioProjects/AndroidStudioProjects/harmeetissue/android-sdk-test-project/CustomBrowser/res/layout/retry_otp.xml -->
+</LinearLayout><!-- From: file:/Users/shoaib/projects/android-sdk-test-project/CustomBrowser/res/layout/retry_otp.xml -->

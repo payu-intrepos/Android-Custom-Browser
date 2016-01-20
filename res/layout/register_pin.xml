@@ -103,7 +103,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="30dp"
                     android:textSize="15sp"
-                    android:text="Powered by"
+                    android:text="@string/cb_powered_by"
                     android:gravity="center_vertical"
                     android:textColor="@color/cb_textColor"
                     android:drawablePadding="@dimen/cb_four"
@@ -133,10 +133,11 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:paddingRight="5dp"
+                    android:contentDescription="@string/cb_bank_logo"
                     android:layout_gravity="right|center_vertical"
                     />
             </LinearLayout>
         </RelativeLayout>
     </LinearLayout>
 
-</LinearLayout><!-- From: file:/Users/Minie/AndroidStudioProjects/AndroidStudioProjects/harmeetissue/android-sdk-test-project/CustomBrowser/res/layout/register_pin.xml -->
+</LinearLayout><!-- From: file:/Users/shoaib/projects/android-sdk-test-project/CustomBrowser/res/layout/register_pin.xml -->

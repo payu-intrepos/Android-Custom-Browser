@@ -46,7 +46,7 @@
                 android:textSize="18sp"
                 android:textStyle="normal"
                 android:textColor="@color/cb_errorRed"
-                android:text="Incorrect OTP!"
+                android:text="@string/cb_incorrect_otp_e"
                 android:layout_marginBottom="@dimen/cb_four"/>
 
             <TextView
@@ -86,7 +86,7 @@
                             android:layout_height="wrap_content"
                             android:gravity="center"
                             android:textSize="13sp"
-                            android:text="PASSWORD"
+                            android:text="@string/cb_password"
                             android:textColor="@color/cb_textColor"
                             android:layout_centerInParent="true"
                             android:textStyle="bold"
@@ -150,7 +150,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="30dp"
                             android:textSize="15sp"
-                            android:text="Powered by"
+                            android:text="@string/cb_powered_by"
                             android:gravity="center_vertical"
                             android:textColor="@color/cb_textColor"
                             android:drawablePadding="@dimen/cb_four"
@@ -180,6 +180,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:paddingRight="5dp"
+
+                        android:contentDescription="@string/cb_bank_logo"
                         android:layout_gravity="right|center_vertical"
                         />
                         </LinearLayout>
@@ -189,4 +191,4 @@
         </LinearLayout>
     </LinearLayout>
 
-</LinearLayout><!-- From: file:/Users/Minie/AndroidStudioProjects/AndroidStudioProjects/harmeetissue/android-sdk-test-project/CustomBrowser/res/layout/choose_action.xml -->
+</LinearLayout><!-- From: file:/Users/shoaib/projects/android-sdk-test-project/CustomBrowser/res/layout/choose_action.xml -->

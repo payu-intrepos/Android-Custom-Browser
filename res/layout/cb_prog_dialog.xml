@@ -22,6 +22,7 @@
             android:id="@+id/imageView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:contentDescription="@string/cb_payu_icon"
             android:scaleType="centerInside"
             />
 
@@ -33,7 +34,7 @@
             android:id="@+id/dialog_title"
             android:layout_gravity="center_horizontal"
             android:textStyle="normal"
-            android:text="Processing Your Request">
+            android:text="@string/cb_process_request">
         </TextView>
         <TextView
             android:paddingTop="10dp"
@@ -41,7 +42,7 @@
             android:textStyle="italic"
             android:textSize="15dp"
             android:layout_width="wrap_content"
-            android:text="Please Wait"
+            android:text="@string/cb_please_wait"
             android:id="@+id/dialog_desc">
         </TextView>
 
@@ -51,4 +52,4 @@
 
 
 
-</RelativeLayout><!-- From: file:/Users/Minie/AndroidStudioProjects/AndroidStudioProjects/harmeetissue/android-sdk-test-project/CustomBrowser/res/layout/cb_prog_dialog.xml -->
+</RelativeLayout><!-- From: file:/Users/shoaib/projects/android-sdk-test-project/CustomBrowser/res/layout/cb_prog_dialog.xml -->

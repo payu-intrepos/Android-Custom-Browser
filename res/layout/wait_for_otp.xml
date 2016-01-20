@@ -9,7 +9,6 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:layout_alignParentTop="true"
         android:background="@color/cb_border"/>
     <LinearLayout
         android:id="@+id/linear_layout_waiting_for_otp"
@@ -48,7 +47,7 @@
                 <include
                     android:id="@+id/progress"
                     layout="@layout/cb_progressdialog"
-                    ></include>
+                    />
 
                 <TextView android:id="@+id/timer"
                     android:layout_marginTop="@dimen/cb_four"
@@ -81,7 +80,7 @@
                     android:layout_height="wrap_content"
                     android:textColor="@color/cb_otpReceivedColor"
                     android:layout_marginTop="@dimen/cb_twentyfour"
-                    ></TextView>
+                    />
                 <EditText
                     android:id="@+id/otp_sms"
                     android:layout_width="wrap_content"
@@ -94,7 +93,7 @@
                     android:fontFamily="sans-serif-light"
                     android:textSize="25sp"
                     android:visibility="gone"
-                    android:hint="Enter OTP"
+                    android:hint="@string/cb_enter_otp_c"
                     android:maxLength="8"
                     android:layout_marginBottom="@dimen/cb_eight">
                 <requestFocus > </requestFocus>
@@ -170,7 +169,7 @@
                             android:paddingRight="@dimen/cb_eight"
                             android:paddingLeft="@dimen/cb_eight"
                             android:textStyle="bold"
-                            android:text="Enter Manually"
+                            android:text="@string/cb_enter_manually"
                             />
                     </LinearLayout>
                     <LinearLayout
@@ -225,7 +224,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="30dp"
                         android:textSize="15sp"
-                        android:text="Powered by"
+                        android:text="@string/cb_powered_by"
                         android:gravity="center_vertical"
                         android:textColor="@color/cb_textColor"
                         android:drawablePadding="@dimen/cb_four"
@@ -254,6 +253,7 @@
                         android:id="@+id/bank_logo"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:contentDescription="@string/cb_powered_by"
                         android:paddingRight="5dp"
                         android:layout_gravity="right|center_vertical"
                         />
@@ -265,4 +265,4 @@
 
 
 
-</LinearLayout><!-- From: file:/Users/Minie/AndroidStudioProjects/AndroidStudioProjects/harmeetissue/android-sdk-test-project/CustomBrowser/res/layout/wait_for_otp.xml -->
+</LinearLayout><!-- From: file:/Users/shoaib/projects/android-sdk-test-project/CustomBrowser/res/layout/wait_for_otp.xml -->

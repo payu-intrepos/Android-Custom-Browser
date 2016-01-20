@@ -12,6 +12,7 @@
         android:layout_height="wrap_content"
         android:visibility="gone"
         android:id="@+id/img_view"
+        android:contentDescription="@string/cb_nb_image"
         android:layout_alignParentLeft="true"
         android:layout_centerVertical="true"
         >
@@ -23,9 +24,10 @@
             android:checked="true"
             android:id="@+id/checkbox"
             android:textSize="16dp"
+
             android:textColor="@android:color/white"
             android:layout_centerVertical="true"
-            android:text="Remember User ID">
+            android:text="@string/cb_remember_user">
             </CheckBox>
         <Button
             android:layout_height="wrap_content"
@@ -38,4 +40,4 @@
             android:layout_alignParentRight="true"
             android:id="@+id/native_button">
         </Button>
-</RelativeLayout><!-- From: file:/Users/Minie/AndroidStudioProjects/AndroidStudioProjects/harmeetissue/android-sdk-test-project/CustomBrowser/res/layout/nb_layout.xml -->
+</RelativeLayout><!-- From: file:/Users/shoaib/projects/android-sdk-test-project/CustomBrowser/res/layout/nb_layout.xml -->

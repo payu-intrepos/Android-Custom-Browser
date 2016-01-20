@@ -9,7 +9,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ERROR_TITLE"
+        android:text="@string/cb_error_title"
         android:layout_gravity="center_horizontal"
         android:fontFamily="sans-serif-light"
         android:textColor="@android:color/black"
@@ -37,8 +37,8 @@
            android:layout_weight="1">
            </View>
     <Button
-        android:text="@string/cb_b_cancel"
         android:id="@+id/cancel"
+        android:text="@string/cb_b_cancel"
         android:layout_width="150dp"
         android:layout_height="36dp"
         android:background="@drawable/approve_otp_button"
@@ -70,4 +70,4 @@
        </View>
    </LinearLayout>
 
-</LinearLayout><!-- From: file:/Users/Minie/AndroidStudioProjects/AndroidStudioProjects/harmeetissue/android-sdk-test-project/CustomBrowser/res/layout/error_page.xml -->
+</LinearLayout><!-- From: file:/Users/shoaib/projects/android-sdk-test-project/CustomBrowser/res/layout/error_page.xml -->
