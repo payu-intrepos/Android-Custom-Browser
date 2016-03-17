@@ -68,7 +68,7 @@
 
                 android:layout_gravity="center"
                 android:layout_marginTop="@dimen/cb_twentyfour"
-                android:hint="@string/cb_enter_otp_c"
+                android:hint="@string/cb_enter_otp"
                 android:maxLength="8"
                 android:layout_marginBottom="@dimen/cb_eight"/>
 
@@ -84,6 +84,7 @@
                 android:clickable="false"
                 android:layout_marginTop="@dimen/cb_eight"
                 android:layout_marginBottom="@dimen/cb_twentyfour"
+
                 android:text="@string/cb_approve_otp"
                 android:layout_gravity="center"/>
 
@@ -225,8 +226,8 @@
                             android:id="@+id/bank_logo"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:contentDescription="@string/cb_bank_logo"
                             android:paddingRight="5dp"
+                            android:contentDescription="@string/cb_bank_logo"
                             android:layout_gravity="right|center_vertical"
                             />
                     </LinearLayout>
@@ -238,4 +239,4 @@
 
     </LinearLayout>
 
-</LinearLayout><!-- From: file:/Users/shoaib/projects/android-sdk-test-project/CustomBrowser/res/layout/retry_otp.xml -->
+</LinearLayout><!-- From: file:/Users/Minie/AndroidStudioProjects/AndroidStudioProjects/Analytics_merged/Analytics/android-sdk-test-project/CustomBrowser/res/layout/retry_otp.xml -->

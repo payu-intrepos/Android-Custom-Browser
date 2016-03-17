@@ -93,11 +93,14 @@
                     android:fontFamily="sans-serif-light"
                     android:textSize="25sp"
                     android:visibility="gone"
-                    android:hint="@string/cb_enter_otp_c"
+                    android:hint="@string/cb_enter_caps_otp"
                     android:maxLength="8"
                     android:layout_marginBottom="@dimen/cb_eight">
                 <requestFocus > </requestFocus>
                 </EditText>
+
+
+
                 <Button
                     android:id="@+id/approve"
                     android:layout_width="180dp"
@@ -109,7 +112,6 @@
                     android:clickable="false"
                     android:layout_marginTop="@dimen/cb_four"
                     android:layout_marginBottom="@dimen/cb_twentyfour"
-
                     android:text="@string/cb_approve_otp" />
 
                 <TextView
@@ -253,8 +255,8 @@
                         android:id="@+id/bank_logo"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:contentDescription="@string/cb_powered_by"
                         android:paddingRight="5dp"
+                        android:contentDescription="@string/cb_bank_logo"
                         android:layout_gravity="right|center_vertical"
                         />
                 </LinearLayout>
@@ -265,4 +267,4 @@
 
 
 
-</LinearLayout><!-- From: file:/Users/shoaib/projects/android-sdk-test-project/CustomBrowser/res/layout/wait_for_otp.xml -->
+</LinearLayout><!-- From: file:/Users/Minie/AndroidStudioProjects/AndroidStudioProjects/Analytics_merged/Analytics/android-sdk-test-project/CustomBrowser/res/layout/wait_for_otp.xml -->

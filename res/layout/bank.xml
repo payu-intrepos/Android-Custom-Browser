@@ -1,44 +1,100 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="wrap_content"
-    android:layout_height="wrap_content">
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:contentDescription="@string/cb_top_arrow"
-        android:layout_gravity="center"
-        android:id="@+id/arrow"/>
-    <FrameLayout
-        android:id="@+id/help_view"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <WebView
+        android:id="@+id/webview"
+        android:focusable="true"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
-    <RelativeLayout
+    <LinearLayout
+        android:id="@+id/magic_retry_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"/>
+
+    <ProgressBar
+        android:id="@+id/cb_progressbar"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:layout_alignParentTop="true"
+        android:max="100"
+        android:progress="50"
+        android:progressDrawable="@drawable/cb_progress_bar">
+    </ProgressBar>
+
+    <LinearLayout
+        android:id="@+id/trans_overlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_drawable"
+        android:orientation="vertical"/>
+
+    <LinearLayout
+        android:id="@+id/parent"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:visibility="gone"
-        android:id="@+id/view"
-        android:background="@color/cb_background">
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:layout_alignParentTop="true"
-            android:background="@color/cb_border"/>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="30dp">
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textColor="@color/cb_textColor"
-                android:textSize="@dimen/cb_sixteenScaled"
-                android:layout_marginTop="@dimen/cb_eight"
-                android:layout_marginBottom="@dimen/cb_eight"
-                android:drawableTop="@drawable/slider"
-                android:gravity="center"/>
-        </LinearLayout>
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
 
-    </RelativeLayout>
-</LinearLayout><!-- From: file:/Users/shoaib/projects/android-sdk-test-project/CustomBrowser/res/layout/bank.xml -->
+        <ImageView
+            android:id="@+id/arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/cb_top_arrow"
+            android:layout_gravity="center" />
+
+        <FrameLayout
+            android:id="@+id/help_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <RelativeLayout
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/cb_background"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <View
+                android:layout_width="match_parent"
+
+                android:layout_height="1dp"
+                android:layout_alignParentTop="true"
+                android:background="@color/cb_border" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/cb_eight"
+                    android:layout_marginTop="@dimen/cb_eight"
+                    android:drawableTop="@drawable/slider"
+                    android:gravity="center"
+                    android:textColor="@color/cb_textColor"
+                    android:textSize="@dimen/cb_sixteenScaled" />
+            </LinearLayout>
+
+            <!-- <ImageView
+                 android:layout_gravity="right|center_vertical"
+                 android:padding="5dp"
+                 android:layout_height="30dp"
+                 android:layout_width="30dp"
+                 android:layout_alignParentRight="true"
+                 android:layout_centerHorizontal="true"
+                 android:src="@drawable/arrow_cb">
+             </ImageView>-->
+
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>
+<!-- From: file:/Users/Minie/AndroidStudioProjects/AndroidStudioProjects/Analytics_merged/Analytics/android-sdk-test-project/CustomBrowser/res/layout/bank.xml -->

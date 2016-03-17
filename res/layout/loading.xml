@@ -6,12 +6,10 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:background="@color/cb_background">
-
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:background="@color/cb_border"/>
-
           <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -122,7 +120,4 @@
                   </LinearLayout>
               </RelativeLayout>
         </RelativeLayout>
-
-
-
-</LinearLayout><!-- From: file:/Users/shoaib/projects/android-sdk-test-project/CustomBrowser/res/layout/loading.xml -->
+</LinearLayout><!-- From: file:/Users/Minie/AndroidStudioProjects/AndroidStudioProjects/Analytics_merged/Analytics/android-sdk-test-project/CustomBrowser/res/layout/loading.xml -->

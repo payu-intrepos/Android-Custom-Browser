@@ -56,14 +56,14 @@
 
                 android:layout_weight="1"
                 android:text="@string/cb_register_for_pin"
-                android:textSize="17dp"
+                android:textSize="17sp"
                 android:background="@drawable/approve_otp_button"
                 android:layout_marginRight="@dimen/cb_eight"
                 style="@style/cb_approve_otp" />
 
             <Button
                 android:id="@+id/otp"
-                android:textSize="17dp"
+                android:textSize="17sp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -140,4 +140,4 @@
         </RelativeLayout>
     </LinearLayout>
 
-</LinearLayout><!-- From: file:/Users/shoaib/projects/android-sdk-test-project/CustomBrowser/res/layout/register_pin.xml -->
+</LinearLayout><!-- From: file:/Users/Minie/AndroidStudioProjects/AndroidStudioProjects/Analytics_merged/Analytics/android-sdk-test-project/CustomBrowser/res/layout/register_pin.xml -->

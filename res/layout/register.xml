@@ -85,7 +85,7 @@
                 android:contentDescription="@string/cb_bank_logo"
                 android:layout_gravity="right|center_vertical"
                 />
-            </LinearLayout>
+        </LinearLayout>
     </RelativeLayout>
 </LinearLayout>
-<!-- From: file:/Users/shoaib/projects/android-sdk-test-project/CustomBrowser/res/layout/register.xml -->
+<!-- From: file:/Users/Minie/AndroidStudioProjects/AndroidStudioProjects/Analytics_merged/Analytics/android-sdk-test-project/CustomBrowser/res/layout/register.xml -->

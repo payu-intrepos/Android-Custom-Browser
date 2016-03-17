@@ -5,7 +5,7 @@
     android:id="@+id/l_nativebutton"
     android:gravity="right"
     android:orientation="horizontal"
-    android:background="#3A3434"
+    android:background="@color/cb_nb_background"
     android:padding="5dp">
     <ImageView
         android:layout_width="wrap_content"
@@ -16,28 +16,28 @@
         android:layout_alignParentLeft="true"
         android:layout_centerVertical="true"
         >
-        </ImageView>
-        <CheckBox
-            android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_width="wrap_content"
-            android:checked="true"
-            android:id="@+id/checkbox"
-            android:textSize="16dp"
-
-            android:textColor="@android:color/white"
-            android:layout_centerVertical="true"
-            android:text="@string/cb_remember_user">
-            </CheckBox>
-        <Button
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
-            android:background="#615C5C"
-            android:paddingRight="10dp"
-            android:paddingLeft="10dp"
-            android:textSize="16dp"
-            android:textColor="@android:color/white"
-            android:layout_alignParentRight="true"
-            android:id="@+id/native_button">
-        </Button>
-</RelativeLayout><!-- From: file:/Users/shoaib/projects/android-sdk-test-project/CustomBrowser/res/layout/nb_layout.xml -->
+    </ImageView>
+    <CheckBox
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_width="wrap_content"
+        android:checked="true"
+        android:id="@+id/checkbox"
+        android:textSize="16sp"
+        android:visibility="gone"
+        android:textColor="@android:color/white"
+        android:layout_centerVertical="true"
+        android:text="@string/cb_remember_user">
+    </CheckBox>
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:background="@color/cb_nb_button"
+        android:paddingRight="15dp"
+        android:paddingLeft="15dp"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:layout_alignParentRight="true"
+        android:id="@+id/b_continue">
+    </Button>
+</RelativeLayout><!-- From: file:/Users/Minie/AndroidStudioProjects/AndroidStudioProjects/Analytics_merged/Analytics/android-sdk-test-project/CustomBrowser/res/layout/nb_layout.xml -->

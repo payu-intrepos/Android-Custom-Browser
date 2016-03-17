@@ -99,7 +99,7 @@
         android:indeterminate="true"
         style="@style/Widget.MaterialProgressBar.ProgressBar.Horizontal" / -->
 
-    <com.payu.custombrowser.DotsProgressBar
+    <com.payu.custombrowser.custombar.DotsProgressBar
         android:layout_marginLeft="6dp"
         android:id="@+id/dotsProgressBar"
         android:layout_centerInParent="true"
@@ -108,4 +108,4 @@
         android:paddingTop="@dimen/cb_twelve" />
 
 
-</RelativeLayout><!-- From: file:/Users/shoaib/projects/android-sdk-test-project/CustomBrowser/res/layout/cb_progressdialog.xml -->
+</RelativeLayout><!-- From: file:/Users/Minie/AndroidStudioProjects/AndroidStudioProjects/Analytics_merged/Analytics/android-sdk-test-project/CustomBrowser/res/layout/cb_progressdialog.xml -->

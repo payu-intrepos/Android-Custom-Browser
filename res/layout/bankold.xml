@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/cb_top_arrow"
+        android:layout_gravity="center"
+        android:id="@+id/arrow"/>
+    <FrameLayout
+        android:id="@+id/help_view"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:id="@+id/view"
+        android:background="@color/cb_background">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentTop="true"
+            android:background="@color/cb_border"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/cb_textColor"
+                android:textSize="@dimen/cb_sixteenScaled"
+                android:layout_marginTop="@dimen/cb_eight"
+                android:layout_marginBottom="@dimen/cb_eight"
+                android:drawableTop="@drawable/slider"
+                android:gravity="center"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+</LinearLayout><!-- From: file:/Users/Minie/AndroidStudioProjects/AndroidStudioProjects/Analytics_merged/Analytics/android-sdk-test-project/CustomBrowser/res/layout/bankold.xml -->

@@ -1,0 +1,20 @@
+<!--<RelativeLayout
+
+android:layout_width="match_parent"
+android:layout_height="match_parent">-->
+
+    <FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/main_frame"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+   <!-- <WebView
+        android:id="@+id/webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>-->
+<!--
+</RelativeLayout>-->
+<!-- From: file:/Users/Minie/AndroidStudioProjects/AndroidStudioProjects/Analytics_merged/Analytics/android-sdk-test-project/CustomBrowser/res/layout/cb_payments.xml -->
