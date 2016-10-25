@@ -2,26 +2,23 @@
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:id="@android:id/background">
         <shape android:shape="rectangle">
-            <corners android:radius="0dip"  />
-            <solid android:color="@android:color/transparent"/>
+            <corners android:radius="0dip" />
+            <solid android:color="@android:color/transparent" />
 
         </shape>
     </item>
 
 
-    <item
-        android:id="@android:id/progress"
-        >
+    <item android:id="@android:id/progress">
         <clip>
             <shape>
-                <corners
-                    android:radius="0dip" />
+                <corners android:radius="0dip" />
                 <gradient
-                    android:startColor="@color/cb_blue_button_light"
+                    android:angle="270"
                     android:endColor="@color/cb_blue_button"
-                    android:angle="270" />
+                    android:startColor="@color/cb_blue_button_light" />
             </shape>
         </clip>
     </item>
 
-</layer-list><!-- From: file:/Users/Minie/AndroidStudioProjects/AndroidStudioProjects/Analytics_merged/Analytics/android-sdk-test-project/CustomBrowser/res/drawable/cb_progress_bar.xml -->
+</layer-list>

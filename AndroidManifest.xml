@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.payu.custombrowser"
-    android:versionCode="13"
-    android:versionName="6.0.0" >
+    android:versionCode="15"
+    android:versionName="6.1.1" >
 
     <uses-sdk
         android:minSdkVersion="9"
         android:targetSdkVersion="23" />
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission
         android:name="android.permission.RECEIVE_SMS"
         android:protectionLevel="signature" />
@@ -18,8 +17,9 @@
         <activity
             android:name="com.payu.custombrowser.CBActivity"
             android:screenOrientation="portrait"
-            android:windowSoftInputMode="stateAlwaysHidden" >
-        </activity>
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <service android:name="com.payu.custombrowser.services.SnoozeService" />
     </application>
 
 </manifest>

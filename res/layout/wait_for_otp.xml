@@ -1,264 +1,275 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/cb_background">
+    style="@style/cb_linear_layout"
+    android:orientation="vertical">
 
     <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="@color/cb_border"/>
+        style="@style/cb_horizontal_line"
+        android:background="@color/cb_border" />
+
     <LinearLayout
         android:id="@+id/linear_layout_waiting_for_otp"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
+        style="@style/cb_linear_layout"
         android:focusable="true"
         android:focusableInTouchMode="true"
-        android:gravity="center_vertical">
+        android:gravity="center_vertical"
+
+
+        android:orientation="vertical">
 
         <LinearLayout
-            android:layout_width="match_parent"
+            style="@style/cb_linear_layout"
             android:layout_height="42dp">
+
             <TextView
+                style="@style/cb_text_view"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textColor="@color/cb_textColor"
-                android:textSize="@dimen/cb_sixteenScaled"
-                android:layout_marginTop="@dimen/cb_eight"
                 android:layout_marginBottom="@dimen/cb_eight"
+                android:layout_marginTop="@dimen/cb_eight"
                 android:drawableTop="@drawable/slider"
-                android:gravity="center"/>
+                android:gravity="center"
+                android:textColor="@color/cb_textColor"
+                android:textSize="@dimen/cb_sixteenScaled" />
         </LinearLayout>
+
         <LinearLayout
-            android:layout_width="match_parent"
+            style="@style/cb_linear_layout"
             android:layout_height="wrap_content"
             android:orientation="vertical">
+
             <LinearLayout
-                android:orientation="vertical"
-                android:gravity="center"
+                style="@style/cb_linear_layout"
+                android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/cb_twentyfour"
-                android:layout_width="match_parent"
                 android:focusable="true"
                 android:focusableInTouchMode="true"
-                android:layout_height="wrap_content">
+                android:gravity="center"
+                android:orientation="vertical">
+
                 <include
                     android:id="@+id/progress"
-                    layout="@layout/cb_progressdialog"
-                    />
+                    layout="@layout/cb_progressdialog" />
 
-                <TextView android:id="@+id/timer"
+                <TextView
+                    android:id="@+id/timer"
+                    style="@style/cb_text_view"
                     android:layout_marginTop="@dimen/cb_four"
                     android:fontFamily="sans-serif-light"
-                    android:textSize="18sp"
                     android:textColor="@color/cb_dark_grey"
-                    android:textStyle="normal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
-                </TextView>
+                    android:textSize="18sp"
+                    android:textStyle="normal"></TextView>
+
                 <TextView
                     android:id="@+id/waiting"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/cb_waiting_for_otp"
-                    android:textColor="@color/cb_dark_grey"
-                    android:fontFamily="sans-serif-light"
-                    android:textSize="18sp"
-                    android:textStyle="normal"
+                    style="@style/cb_text_view"
+                    android:layout_marginBottom="@dimen/cb_eight"
                     android:layout_marginTop="@dimen/cb_eight"
+                    android:fontFamily="sans-serif-light"
+                    android:text="@string/cb_waiting_for_otp"
                     android:textAppearance="?android:attr/textAppearanceMedium"
-                    android:layout_marginBottom="@dimen/cb_eight" />
+                    android:textColor="@color/cb_dark_grey"
+                    android:textSize="18sp"
+                    android:textStyle="normal" />
+
                 <TextView
                     android:id="@+id/otp_recieved"
-                    android:layout_width="wrap_content"
-                    android:fontFamily="sans-serif-light"
-                    android:textSize="18sp"
-                    android:visibility="gone"
-                    android:text="@string/cb_otp_received"
-                    android:layout_height="wrap_content"
-                    android:textColor="@color/cb_otpReceivedColor"
+                    style="@style/cb_text_view"
                     android:layout_marginTop="@dimen/cb_twentyfour"
-                    />
+                    android:fontFamily="sans-serif-light"
+                    android:text="@string/cb_otp_received"
+                    android:textColor="@color/cb_otpReceivedColor"
+
+                    android:textSize="18sp"
+                    android:visibility="gone" />
+
                 <EditText
                     android:id="@+id/otp_sms"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textColor="@color/cb_otpColor"
-                    android:inputType="number"
-                    android:ems="5"
-                    android:gravity="center"
                     style="@style/cb_edit_text"
+                    android:layout_marginBottom="@dimen/cb_eight"
+                    android:ems="5"
                     android:fontFamily="sans-serif-light"
-                    android:textSize="25sp"
-                    android:visibility="gone"
+                    android:gravity="center"
                     android:hint="@string/cb_enter_caps_otp"
+                    android:inputType="number"
                     android:maxLength="8"
-                    android:layout_marginBottom="@dimen/cb_eight">
-                <requestFocus > </requestFocus>
-                </EditText>
+                    android:textColor="@color/cb_otpColor"
+                    android:textSize="25sp"
+                    android:visibility="gone">
 
+                    <requestFocus></requestFocus>
+                </EditText>
 
 
                 <Button
                     android:id="@+id/approve"
+                    style="@style/cb_approve_otp"
                     android:layout_width="180dp"
                     android:layout_height="36dp"
-                    android:background="@drawable/approve_otp_button"
-                    style="@style/cb_approve_otp"
-                    android:textSize="17sp"
-                    android:alpha=".3"
-                    android:clickable="false"
-                    android:layout_marginTop="@dimen/cb_four"
                     android:layout_marginBottom="@dimen/cb_twentyfour"
-                    android:text="@string/cb_approve_otp" />
+                    android:layout_marginTop="@dimen/cb_four"
+                    android:alpha=".3"
+                    android:background="@drawable/approve_otp_button"
+                    android:clickable="false"
+                    android:text="@string/cb_approve_otp"
+                    android:textSize="17sp" />
 
                 <TextView
                     android:id="@+id/retry_text"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="@dimen/cb_eight"
-                    android:visibility="gone"
-                    android:textColor="@color/cb_dark_grey"
-                    android:fontFamily="sans-serif-light"
-                    android:textSize="18sp"
+                    style="@style/cb_text_view"
                     android:layout_marginBottom="@dimen/cb_twelve"
-                    android:text="@string/cb_regenerate_otp_text" />
+                    android:layout_marginTop="@dimen/cb_eight"
+                    android:fontFamily="sans-serif-light"
+                    android:text="@string/cb_regenerate_otp_text"
+                    android:textColor="@color/cb_dark_grey"
+                    android:textSize="18sp"
+                    android:visibility="gone" />
+
                 <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:gravity="center_horizontal"
                     android:id="@+id/regenerate_layout"
-                    android:visibility="gone"
+                    style="@style/cb_linear_layout"
+                    android:layout_width="match_parent"
                     android:layout_marginBottom="@dimen/cb_twentyfour"
-                    >
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
                     <LinearLayout
+                        android:id="@+id/pin_layout_gone"
+                        style="@style/cb_linear_layout"
                         android:layout_width="0dp"
+                        android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/pin_layout_gone"
                         android:visibility="gone">
 
                         <Button
                             android:id="@+id/pin"
+                            style="@style/cb_approve_otp"
                             android:layout_width="150dp"
                             android:layout_height="36dp"
                             android:background="@drawable/approve_otp_button"
-                            style="@style/cb_approve_otp"
-                            android:paddingRight="@dimen/cb_eight"
                             android:paddingLeft="@dimen/cb_eight"
+                            android:paddingRight="@dimen/cb_eight"
+                            android:text="@string/cb_password_value"
                             android:textSize="12sp"
-                            android:textStyle="bold"
-                            android:text="@string/cb_password_value" />
+                            android:textStyle="bold" />
                     </LinearLayout>
 
                     <LinearLayout
+                        android:id="@+id/Enter_manually_gone"
+                        style="@style/cb_linear_layout"
                         android:layout_width="0dp"
-                        android:layout_weight="1"
                         android:layout_height="wrap_content"
-                        android:gravity="center"
-                        android:id="@+id/Enter_manually_gone">
+                        android:layout_weight="1"
+                        android:gravity="center">
+
                         <Button
                             android:id="@+id/enter_manually"
+                            style="@style/cb_approve_otp"
                             android:layout_width="150dp"
                             android:layout_height="36dp"
                             android:background="@drawable/approve_otp_button"
-                            style="@style/cb_approve_otp"
-                            android:textSize="12sp"
-                            android:paddingRight="@dimen/cb_eight"
                             android:paddingLeft="@dimen/cb_eight"
-                            android:textStyle="bold"
+                            android:paddingRight="@dimen/cb_eight"
                             android:text="@string/cb_enter_manually"
-                            />
+                            android:textSize="12sp"
+                            android:textStyle="bold" />
                     </LinearLayout>
+
                     <LinearLayout
+                        android:id="@+id/Regenerate_layout_gone"
+                        style="@style/cb_linear_layout"
                         android:layout_width="0dp"
+                        android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:visibility="gone"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/Regenerate_layout_gone">
+                        android:visibility="gone">
 
                         <Button
                             android:id="@+id/retry"
+                            style="@style/cb_approve_otp"
                             android:layout_width="150dp"
                             android:layout_height="36dp"
                             android:background="@drawable/approve_otp_button"
-                            style="@style/cb_approve_otp"
-                            android:paddingRight="@dimen/cb_eight"
                             android:paddingLeft="@dimen/cb_eight"
+                            android:paddingRight="@dimen/cb_eight"
+                            android:text="@string/cb_regenerate_otp"
                             android:textSize="12sp"
-                            android:textStyle="bold"
-                            android:text="@string/cb_regenerate_otp" />
+                            android:textStyle="bold" />
                     </LinearLayout>
                 </LinearLayout>
-                </LinearLayout>
+            </LinearLayout>
+
             <RelativeLayout
-                android:orientation="horizontal"
-                android:layout_width="match_parent"
-                android:gravity="bottom"
-                android:layout_gravity="bottom"
+                style="@style/cb_relative_layout"
                 android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
                 android:background="@drawable/rectangle_box"
-                >
+                android:gravity="bottom"
+                android:orientation="horizontal">
 
                 <LinearLayout
-                    android:layout_width="match_parent"
+                    style="@style/cb_linear_layout"
                     android:layout_height="30dp"
                     android:layout_alignParentLeft="true"
-                    android:orientation="horizontal"
-                    android:gravity="left">
+                    android:background="@null"
+                    android:gravity="left"
+                    android:orientation="horizontal">
+
                     <TextView
-                        android:layout_width="wrap_content"
+                        style="@style/cb_text_view"
                         android:layout_height="30dp"
-                        android:gravity="center_vertical"
-                        android:textSize="@dimen/cb_twelveScaled"
-                        android:textColor="@color/cb_textColor"
-                        android:drawablePadding="@dimen/cb_four"
-                        android:textStyle="bold"
                         android:layout_marginLeft="5dp"
+                        android:background="@null"
+                        android:drawablePadding="@dimen/cb_four"
                         android:drawableRight="@drawable/trusticon"
-                        />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="30dp"
-                        android:textSize="15sp"
-                        android:text="@string/cb_powered_by"
                         android:gravity="center_vertical"
                         android:textColor="@color/cb_textColor"
-                        android:drawablePadding="@dimen/cb_four"
+                        android:textSize="@dimen/cb_twelveScaled"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        style="@style/cb_text_view"
+                        android:layout_height="30dp"
                         android:layout_marginLeft="@dimen/cb_four"
+                        android:background="@null"
+                        android:drawablePadding="@dimen/cb_four"
+                        android:gravity="center_vertical"
+                        android:text="@string/cb_powered_by"
+                        android:textColor="@color/cb_textColor"
+                        android:textSize="15sp"
                         android:textStyle="normal"
 
                         />
+
                     <TextView
-                        android:layout_width="wrap_content"
+                        style="@style/cb_text_view"
                         android:layout_height="20dp"
-                        android:gravity="center"
-                        android:textSize="@dimen/cb_twelveScaled"
-                        android:textColor="@color/cb_textColor"
-                        android:drawablePadding="@dimen/cb_four"
-                        android:textStyle="bold"
                         android:layout_marginLeft="@dimen/cb_four"
+                        android:background="@null"
                         android:drawableLeft="@drawable/logo_payu"
-                        />
+                        android:drawablePadding="@dimen/cb_four"
+                        android:gravity="center"
+                        android:textColor="@color/cb_textColor"
+                        android:textSize="@dimen/cb_twelveScaled"
+                        android:textStyle="bold" />
                 </LinearLayout>
 
-                <LinearLayout  android:layout_width="wrap_content"
+                <LinearLayout
+                    style="@style/cb_linear_layout"
+                    android:layout_width="wrap_content"
                     android:layout_height="30dp"
                     android:layout_alignParentRight="true"
-                    >
+                    android:background="@null">
+
                     <ImageView
                         android:id="@+id/bank_logo"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:paddingRight="5dp"
-                        android:contentDescription="@string/cb_bank_logo"
+                        style="@style/cb_image_view"
                         android:layout_gravity="right|center_vertical"
-                        />
+                        android:background="@null"
+                        android:contentDescription="@string/cb_bank_logo"
+                        android:paddingRight="5dp" />
                 </LinearLayout>
             </RelativeLayout>
         </LinearLayout>
@@ -266,5 +277,4 @@
     </LinearLayout>
 
 
-
-</LinearLayout><!-- From: file:/Users/Minie/AndroidStudioProjects/AndroidStudioProjects/Analytics_merged/Analytics/android-sdk-test-project/CustomBrowser/res/layout/wait_for_otp.xml -->
+</LinearLayout>

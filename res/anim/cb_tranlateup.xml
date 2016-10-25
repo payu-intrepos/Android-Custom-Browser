@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<set xmlns:android="http://schemas.android.com/apk/res/android"
-    >
+<set xmlns:android="http://schemas.android.com/apk/res/android">
     <translate
-        android:interpolator="@android:anim/linear_interpolator"
-        android:fromYDelta="70%p"
-        android:toYDelta="-1%p"
         android:duration="500"
-        >
+        android:fromYDelta="70%p"
+        android:interpolator="@android:anim/linear_interpolator"
+        android:toYDelta="-1%p">
 
-        </translate>
-</set><!-- From: file:/Users/Minie/AndroidStudioProjects/AndroidStudioProjects/Analytics_merged/Analytics/android-sdk-test-project/CustomBrowser/res/anim/cb_tranlateup.xml -->
+    </translate>
+</set>

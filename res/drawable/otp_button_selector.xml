@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:drawable="@drawable/otp_icon_over"
-        android:state_pressed="true" />
-    <item android:drawable="@drawable/otp_icon_large"
-        android:state_focused="true" />
+    <item android:drawable="@drawable/otp_icon_over" android:state_pressed="true" />
+    <item android:drawable="@drawable/otp_icon_large" android:state_focused="true" />
     <item android:drawable="@drawable/otp_icon_large" />
-</selector><!-- From: file:/Users/Minie/AndroidStudioProjects/AndroidStudioProjects/Analytics_merged/Analytics/android-sdk-test-project/CustomBrowser/res/drawable/otp_button_selector.xml -->
+</selector>

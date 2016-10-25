@@ -3,9 +3,9 @@
     android:interpolator="@android:anim/linear_interpolator">
 
     <alpha
-        android:fromAlpha="0.1"
+        android:duration="500"
         android:fillAfter="true"
-        android:toAlpha="1.0"
+        android:fromAlpha="0.1"
         android:interpolator="@android:anim/accelerate_interpolator"
-        android:duration="500"/>
-</set><!-- From: file:/Users/Minie/AndroidStudioProjects/AndroidStudioProjects/Analytics_merged/Analytics/android-sdk-test-project/CustomBrowser/res/anim/cb_fade_in.xml -->
+        android:toAlpha="1.0" />
+</set>
