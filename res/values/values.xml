@@ -116,14 +116,21 @@
     <string name="cb_transaction_failed_retry">Or you can retry now to restart your transaction.</string>
     <string name="cb_transaction_failed_title">Transaction not confirmed</string>
     <string name="cb_transaction_paused">Transaction Paused</string>
+    <string name="cb_transaction_state_unknown">Transaction State Unknown</string>
     <string name="cb_transaction_status">Please wait while we confirm this transaction from the bank. We will notify you once the bank confirms the status of your transaction.</string>
     <string name="cb_transaction_success_msg">We have verified the transaction with the bank. You will now be redirected to the merchant application.</string>
     <string name="cb_transaction_sucess">Transaction successful!</string>
+    <string name="cb_transaction_verified">Transaction Verified</string>
     <string name="cb_try_later">Try Later?</string>
     <string name="cb_use_sms_otp">USE SMS OTP</string>
     <string name="cb_user_input_confirm_transaction">confirm_transaction</string>
     <string name="cb_verify_message_received">verify_message_received</string>
     <string name="cb_waiting_for_otp">Waiting for OTP</string>
+    <string name="internet_restored">Internet Restored</string>
+    <string name="redirect_back_to_merchant">Redirecting you back to merchant...</string>
+    <string name="resuming_your_transaction">Resuming your transaction...</string>
+    <string name="sp_internet_restored_ttl">sp_internet_restored_ttl</string>
+    <string name="status_unknown_redirect_to_merchant">The bank could not verify the transaction at this time. Redirecting you back to the merchant...</string>
     <style name="cb_approve_otp" parent="android:Widget.Button">
         <item name="android:padding">0dp</item>
         <item name="android:textSize">@dimen/cb_fourteenScaled</item>
