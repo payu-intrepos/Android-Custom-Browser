@@ -1,0 +1,78 @@
+<resources>
+    <!--<style name="AppTheme" parent="Theme.AppCompat">
+
+       &lt;!&ndash; <item name="android:background">@color/cb_blue_button</item>&ndash;&gt;
+        &lt;!&ndash; Customize your theme here. &ndash;&gt;
+    </style>-->
+
+    <style name="cb_approve_otp" parent="android:Widget.Button">
+        <item name="android:padding">0dp</item>
+        <item name="android:textSize">@dimen/cb_fourteenScaled</item>
+        <item name="android:textColor">#FFFFFF</item>
+
+    </style>
+
+    <style name="cb_edit_text" parent="android:Widget.EditText">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:background">@drawable/cb_edit_text</item>
+    </style>
+
+    <style name="cb_progress_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="cb_text_view" parent="android:Widget.TextView">
+        <item name="android:background">@null</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColor">@color/cb_textColor</item>
+        <item name="android:textStyle">normal</item>
+
+    </style>
+
+    <style name="cb_relative_layout">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/cb_background</item>
+    </style>
+
+    <style name="cb_linear_layout">
+        <item name="android:background">@color/cb_background</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="cb_horizontal_line">
+        <item name="android:layout_height">1dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/cb_border</item>
+    </style>
+
+    <style name="cb_image_view">
+        <item name="android:background">@null</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <style name="cb_dialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+    <style name="Theme.Transparent" parent="@android:style/Theme.Translucent.NoTitleBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <!--   <item name="android:windowIsFloating">true</item>-->
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+</resources>

@@ -14,10 +14,21 @@
         android:gravity="center_vertical"
         android:orientation="vertical">
 
-        <LinearLayout
+        <RelativeLayout
             style="@style/cb_linear_layout"
             android:layout_height="30dp">
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/cb_payu_review_order"
+                android:paddingRight="10dp"
+                android:textColor="@color/cb_blue_button"
+                android:gravity="center_vertical"
+               android:textStyle="bold"
+                android:elevation="10dp"
+                android:layout_alignParentRight="true"
+                android:id="@+id/t_payu_review_option"/>
             <TextView
                 style="@style/cb_text_view"
                 android:layout_width="match_parent"
@@ -26,7 +37,7 @@
                 android:drawableTop="@drawable/slider"
                 android:gravity="center"
                 android:textSize="@dimen/cb_sixteenScaled" />
-        </LinearLayout>
+        </RelativeLayout>
 
         <LinearLayout
             style="@style/cb_linear_layout"

@@ -18,20 +18,30 @@
 
         android:orientation="vertical">
 
-        <LinearLayout
+        <RelativeLayout
             style="@style/cb_linear_layout"
-            android:layout_height="42dp">
+            android:layout_height="30dp">
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/cb_payu_review_order"
+                android:paddingRight="10dp"
+                android:textColor="@color/cb_blue_button"
+                android:gravity="center_vertical"
+                android:textStyle="bold"
+                android:elevation="10dp"
+                android:layout_alignParentRight="true"
+                android:id="@+id/t_payu_review_option"/>
             <TextView
                 style="@style/cb_text_view"
                 android:layout_width="match_parent"
-                android:layout_marginBottom="@dimen/cb_eight"
+                android:layout_marginBottom="@dimen/cb_twelve"
                 android:layout_marginTop="@dimen/cb_eight"
                 android:drawableTop="@drawable/slider"
                 android:gravity="center"
-                android:textColor="@color/cb_textColor"
                 android:textSize="@dimen/cb_sixteenScaled" />
-        </LinearLayout>
+        </RelativeLayout>
 
         <LinearLayout
             style="@style/cb_linear_layout"
@@ -66,6 +76,7 @@
                     android:layout_marginBottom="@dimen/cb_eight"
                     android:layout_marginTop="@dimen/cb_eight"
                     android:fontFamily="sans-serif-light"
+                    android:gravity="center"
                     android:text="@string/cb_waiting_for_otp"
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:textColor="@color/cb_dark_grey"
@@ -164,10 +175,31 @@
                         android:layout_weight="1"
                         android:gravity="center">
 
-                        <Button
+                        <TextView
+                            android:id="@+id/text_or"
+                            style="@style/cb_text_view"
+                            android:layout_marginBottom="@dimen/cb_twelve"
+                            android:layout_marginTop="@dimen/cb_eight"
+                            android:fontFamily="sans-serif-light"
+                            android:text="@string/text_or"
+                            android:layout_marginRight="@dimen/four"
+                            android:textSize="18sp" />
+
+                        <TextView
                             android:id="@+id/enter_manually"
+                            style="@style/cb_text_view"
+                            android:layout_marginBottom="@dimen/cb_twelve"
+                            android:layout_marginTop="@dimen/cb_eight"
+                            android:fontFamily="sans-serif-light"
+                            android:text="@string/cb_enter_manually"
+                            android:textColor="@color/cb_otpColor"
+                            android:textSize="18sp" />
+
+                        <Button
+                            android:id="@+id/enter_manually_button"
                             style="@style/cb_approve_otp"
                             android:layout_width="150dp"
+                            android:visibility="gone"
                             android:layout_height="36dp"
                             android:background="@drawable/approve_otp_button"
                             android:paddingLeft="@dimen/cb_eight"

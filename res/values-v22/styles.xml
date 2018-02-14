@@ -1,0 +1,3 @@
+<resources>
+    <style name="cb_dialog" parent="@android:style/Theme.DeviceDefault.Light.Dialog.Alert" />
+</resources>

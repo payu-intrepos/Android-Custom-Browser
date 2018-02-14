@@ -10,6 +10,66 @@
         android:background="@android:color/transparent"
         android:focusable="true" />
 
+   <RelativeLayout
+        android:layout_alignParentBottom="true"
+        android:id="@+id/r_payu_review_order"
+        style="@style/cb_relative_layout"
+        android:layout_height="30dp"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <View
+            style="@style/cb_horizontal_line"
+            android:layout_alignParentTop="true"
+            android:id="@+id/v_payu_review_line"/>
+
+            <TextView
+                style="@style/cb_text_view"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="@dimen/cb_eight"
+                android:layout_below="@id/v_payu_review_line"
+                android:layout_marginTop="@dimen/cb_eight"
+                android:drawableTop="@drawable/slider"
+                android:gravity="center"
+                android:textColor="@color/cb_textColor"
+                android:textSize="@dimen/cb_sixteenScaled" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="@string/cb_review_order"
+                android:id="@+id/t_payu_review_order"
+                android:layout_alignParentRight="true"
+                android:visibility="gone"
+                android:layout_below="@id/v_payu_review_line"
+                android:textColor="@color/cb_blue_button"
+                android:elevation="10dp"
+                android:paddingTop="5dp"
+                android:textStyle="bold"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+
+    <!--<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/r_payu_review_order"
+        android:background="@color/cb_dark_grey"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Review Order"
+            android:id="@+id/t_payu_review_order"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/cb_grey"
+            android:elevation="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>-->
+
     <LinearLayout
         android:id="@+id/magic_retry_container"
         android:layout_width="wrap_content"
@@ -41,7 +101,6 @@
         android:background="@android:color/white"
         android:visibility="gone"/>
 
-
     <LinearLayout
         android:id="@+id/parent"
         style="@style/cb_linear_layout"
@@ -70,10 +129,12 @@
 
             <View
                 style="@style/cb_horizontal_line"
+                android:id="@+id/v_payu_cb_horizontal_line"
                 android:layout_alignParentTop="true" />
 
-            <LinearLayout
+            <RelativeLayout
                 style="@style/cb_linear_layout"
+                android:layout_below="@+id/v_payu_cb_horizontal_line"
                 android:layout_height="30dp">
 
                 <TextView
@@ -85,7 +146,21 @@
                     android:gravity="center"
                     android:textColor="@color/cb_textColor"
                     android:textSize="@dimen/cb_sixteenScaled" />
-            </LinearLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="@string/cb_review_order"
+                    android:id="@+id/t_payu_review_order_cb"
+                    android:layout_alignParentRight="true"
+                    android:textColor="@color/cb_blue_button"
+                    android:elevation="10dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textStyle="bold"
+                    android:visibility="gone"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
 
             <!-- <ImageView
                  android:layout_gravity="right|center_vertical"
@@ -99,4 +174,11 @@
 
         </RelativeLayout>
     </LinearLayout>
+    <FrameLayout android:id="@+id/payu_review_order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        android:background="@android:color/transparent"
+        android:layout_alignParentBottom="true"
+        />
 </RelativeLayout>

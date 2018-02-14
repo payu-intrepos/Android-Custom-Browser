@@ -3,6 +3,7 @@
     android:id="@+id/l_nativebutton"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:clickable="true"
     android:background="@color/cb_nb_background"
     android:gravity="right"
     android:orientation="horizontal"
