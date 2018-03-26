@@ -63,7 +63,7 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_width">wrap_content</item>
     </style>
-
+    <style name="cb_snooze_dialog" parent="Theme.AppCompat.Light.Dialog.Alert" />
     <style name="cb_dialog" parent="Theme.AppCompat.Light.Dialog.Alert">
         <item name="android:windowBackground">@android:color/transparent</item>
     </style>
