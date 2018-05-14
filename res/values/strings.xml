@@ -18,6 +18,8 @@
     <string name="cb_process_otp">process_otp</string>
     <string name="cb_detect_bank">detectBank</string>
     <string name="cb_fill_otp">fillOTP</string>
+    <string name="cb_check_visibility_cajs">checkVisibilityCatchAllJSCall</string>
+    <string name="cb_catchAll_success_msg">catchAllSuccessMsg</string>
     <string name="cb_init">init</string>
     <string name="cb_result">result</string>
     <string name="cb_regenerate">regenerate</string>

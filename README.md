@@ -1,1 +1,1 @@
-### Integration of Custom Browser (Latest version 7.1.3)
+### Integration of Custom Browser (Latest version 7.2.1)

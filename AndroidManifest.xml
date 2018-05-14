@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.payu.custombrowser"
-    android:versionCode="23"
-    android:versionName="7.1.3">
+    android:versionCode="26"
+    android:versionName="7.2.1">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission
@@ -17,8 +17,26 @@
 
         <service android:name=".services.SnoozeService" />
 
-        <activity android:name=".upiintent.PaymentResponseActivity"
-            android:theme="@style/Theme.Transparent"/>
+        <activity
+            android:name=".upiintent.PaymentResponseActivity"
+            android:theme="@style/Theme.Transparent" />
+        <activity android:name=".PreLollipopPaymentsActivity">
+            <intent-filter>
+                <data android:scheme="${applicationId}.success" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>
+            <intent-filter>
+                <data android:scheme="${applicationId}.failure" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".PrePaymentsActivity" />
     </application>
 
 </manifest>
