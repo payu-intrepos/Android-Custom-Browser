@@ -18,16 +18,17 @@
             android:layout_height="30dp">
 
             <TextView
+                android:id="@+id/t_payu_review_option"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="@string/cb_payu_review_order"
-                android:paddingRight="10dp"
-                android:textColor="@color/cb_blue_button"
-                android:gravity="center_vertical"
-                android:textStyle="bold"
-                android:elevation="10dp"
                 android:layout_alignParentRight="true"
-                android:id="@+id/t_payu_review_option"/>
+                android:elevation="10dp"
+                android:gravity="center_vertical"
+                android:paddingRight="10dp"
+                android:text="@string/cb_payu_review_order"
+                android:textColor="@color/cb_blue_button"
+                android:textStyle="bold" />
+
             <TextView
                 style="@style/cb_text_view"
                 android:layout_width="match_parent"
