@@ -131,6 +131,12 @@
 
     <string name="cb_review_order">Review Order</string>
     <string name="text_or">or </string>
-
+    <string name="surepay_js">function surePayData(){var list = document.getElementsByTagName(\"input\");
+                    "var map = {};
+                    "for(var i =0;i&lt;list.length;i++)
+                    "{if(list[i].type=='hidden')
+                    "map[list[i].name]=list[i].value;}
+                    "PayU.surePayData(JSON.stringify(map));};
+                    "surePayData();</string>
 
 </resources>
