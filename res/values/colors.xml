@@ -17,4 +17,11 @@
     <color name="cb_payu_blue">#368ecd</color>
     <color name="cb_nb_button">#615C5C</color>
     <color name="cb_nb_background">#3A3434</color>
+    <color name="cb_verify_color">#0077ff</color>
+    <color name="cb_progress_bar_color">#007bff</color>
+    <color name="cb_divider_color">#e7e7e7</color>
+    <color name="cb_or_color">#9c9c9c</color>
+    <color name="cb_heading_color">#212529</color>
+    <color name="cb_item_color">#4a4a4a</color>
+    <color name="cb_border_color">#333333</color>
 </resources>

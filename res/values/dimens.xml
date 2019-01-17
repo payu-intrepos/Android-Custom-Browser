@@ -18,4 +18,6 @@
     <!-- Progressbar circle -->
     <dimen name="cb_circle_indicator_radius">3dp</dimen>
     <dimen name="cb_circle_indicator_outer_radius">4dp</dimen>
+    <dimen name="cb_package_list_height">450dp</dimen>
+    <dimen name="cb_column_width">130dp</dimen>
 </resources>

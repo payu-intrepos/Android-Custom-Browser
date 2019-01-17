@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/lltop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/ll_app_selector"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="@string/upi_chooser_title"
+                android:textColor="@color/cb_heading_color"
+                android:textSize="18sp" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rvApps"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/eight"
+                android:layout_marginTop="@dimen/twelve"
+                android:fadeScrollbars="false"
+                android:scrollbarSize="10dp"
+                android:scrollbarThumbVertical="@android:color/darker_gray"
+                android:scrollbars="vertical" />
+        </LinearLayout>
+            <LinearLayout
+                android:id="@+id/ll_separator"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:background="@color/cb_divider_color" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingLeft="6dp"
+                    android:paddingRight="6dp"
+                    android:text="Or"
+                    android:textColor="@color/cb_or_color"
+                    android:textSize="12sp" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:background="@color/cb_divider_color" />
+            </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_vpa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:paddingLeft="35dp"
+            android:paddingRight="35dp">
+
+
+            <TextView
+                android:id="@+id/tvHeading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/vpa_title"
+                android:textColor="@color/cb_heading_color"
+                android:textSize="16sp" />
+
+            <RelativeLayout
+                android:id="@+id/rlInputVpa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cb_rectangle_round"
+                android:padding="8dp">
+
+                <TextView
+                    android:id="@+id/tvVerifyVpa"
+                    android:visibility="invisible"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/cb_verify"
+                    android:textColor="@color/cb_verify_color"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/edit_vpa"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toLeftOf="@id/tvVerifyVpa"
+                    android:background="@android:color/transparent"
+                    android:hint="@string/hint_vpa"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:textColor="@color/cb_border_color"
+                    android:textColorHint="@color/cb_textColor" />
+
+                <com.payu.custombrowser.custombar.CircularProgressView
+                    android:id="@+id/progressBar"
+                    android:layout_width="24dp"
+                    android:layout_alignParentEnd="true"
+                    app:cpv_thickness="2dp"
+                    android:layout_alignParentRight="true"
+                    android:paddingRight="4dp"
+                    android:layout_height="24dp" />
+                <!--<ProgressBar-->
+                <!--android:id="@+id/progressBar"-->
+                <!--android:layout_width="24dp"-->
+                <!--android:layout_height="24dp"-->
+                <!--android:layout_alignParentEnd="true"-->
+                <!--android:layout_alignParentRight="true"-->
+                <!--android:paddingRight="4dp"-->
+                <!--android:visibility="gone" />-->
+
+                <ImageView
+                    android:id="@+id/ivVpaSuccess"
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/cb_ic_vpa_verified"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tvVpaName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:paddingBottom="4dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/llPayment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/cb_background_round_drawable"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_vpa_submit"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="@string/proceed_to_pay"
+                android:textAllCaps="true"
+                android:textColor="#ddd"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

@@ -131,6 +131,12 @@
 
     <string name="cb_review_order">Review Order</string>
     <string name="text_or">or </string>
+    <string name="hint_vpa">Enter your VPA</string>
+    <string name="vpa_title">Enter your VPA (UPI Address)</string>
+    <string name="upi_chooser_title">Choose UPI app</string>
+    <string name="proceed_to_pay">Proceed to Pay</string>
+    <string name="verify_vpa">Verify VPA</string>
+
     <string name="surepay_js">function surePayData(){var list = document.getElementsByTagName(\"input\");
                     "var map = {};
                     "for(var i =0;i&lt;list.length;i++)
@@ -138,5 +144,8 @@
                     "map[list[i].name]=list[i].value;}
                     "PayU.surePayData(JSON.stringify(map));};
                     "surePayData();</string>
+    <string name="cb_verify">Verify</string>
+    <string name="cb_verify_and_proceed">Verify and Proceed to Pay</string>
+    <string name="cb_invalid_vpa">Invalid VPA</string>
 
 </resources>
