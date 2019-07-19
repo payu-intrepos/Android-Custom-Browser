@@ -3,6 +3,7 @@
 
 
     <dimen name="cb_twelve">12dp</dimen>
+    <dimen name="twelve">12dp</dimen>
     <dimen name="cb_twentyfour">24dp</dimen>
     <dimen name="cb_thirtysix">36dp</dimen>
 

@@ -148,4 +148,10 @@
     <string name="cb_verify_and_proceed">Verify and Proceed to Pay</string>
     <string name="cb_invalid_vpa">Invalid VPA</string>
 
+    <!--MetaData-->
+    <string name="cb_debug_enabled">cb_debug_enabled</string>
+    <string name="payu_debug_mode_enabled">payu_debug_mode_enabled</string>
+    <string name="cb_logs_level">cb_logs_level</string>
+    <string name="payu_logs_level">payu_logs_level</string>
+    <string name="payu_logging_enabled">payu_logging_enabled</string>
 </resources>

@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.payu.custombrowser"
-    android:versionCode="32"
-    android:versionName="7.3.1">
+    android:versionCode="36"
+    android:versionName="7.4.0">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <!--Permission Disabled -->
     <!--<uses-permission-->
-        <!--android:name="android.permission.RECEIVE_SMS"-->
-        <!--android:protectionLevel="signature" />-->
+    <!--android:name="android.permission.RECEIVE_SMS"-->
+    <!--android:protectionLevel="signature" />-->
 
-    <application
-        android:usesCleartextTraffic="false">
+    <application android:usesCleartextTraffic="false">
         <activity
             android:name=".CBActivity"
             android:screenOrientation="portrait"
@@ -20,11 +19,10 @@
         <service android:name=".services.SnoozeService" />
 
         <activity
-            android:name=".upiintent.PaymentResponseActivity"
-            android:windowSoftInputMode="stateAlwaysHidden"
-            android:theme="@style/Theme.Transparent" />
-        <activity android:name=".PreLollipopPaymentsActivity">
+            android:name=".PreLollipopPaymentsActivity">
+
             <intent-filter>
+
                 <data android:scheme="${applicationId}.success" />
                 <action android:name="android.intent.action.VIEW" />
 
