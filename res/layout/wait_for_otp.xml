@@ -182,7 +182,7 @@
                             android:layout_marginTop="@dimen/cb_eight"
                             android:fontFamily="sans-serif-light"
                             android:text="@string/text_or"
-                            android:layout_marginRight="@dimen/four"
+                            android:layout_marginRight="@dimen/cb_four"
                             android:textSize="18sp" />
 
                         <TextView
