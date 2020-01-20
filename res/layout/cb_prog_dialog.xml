@@ -33,7 +33,7 @@
             android:paddingTop="30dp"
             android:text="@string/cb_process_request"
             android:textSize="20sp"
-            android:textStyle="normal"></TextView>
+            android:textStyle="normal" />
 
         <TextView
             android:id="@+id/dialog_desc"
@@ -49,6 +49,6 @@
             android:singleLine="true"
             android:text="@string/cb_please_wait"
             android:textSize="15sp"
-            android:textStyle="italic"></TextView>
+            android:textStyle="italic" />
     </LinearLayout>
 </RelativeLayout>

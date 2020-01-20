@@ -68,7 +68,7 @@
                     android:fontFamily="sans-serif-light"
                     android:textColor="@color/cb_dark_grey"
                     android:textSize="18sp"
-                    android:textStyle="normal"></TextView>
+                    android:textStyle="normal" />
 
                 <TextView
                     android:id="@+id/waiting"
@@ -108,7 +108,7 @@
                     android:textSize="25sp"
                     android:visibility="gone">
 
-                    <requestFocus></requestFocus>
+                    <requestFocus />
                 </EditText>
 
 

@@ -126,16 +126,9 @@
     <string name="status_unknown_redirect_to_merchant">The bank could not verify the transaction at this time. Redirecting you back to the merchant...</string>
     <string name="sp_internet_restored_ttl">sp_internet_restored_ttl</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-
     <string name="cb_review_order">Review Order</string>
     <string name="text_or">or </string>
     <string name="hint_vpa">Enter your VPA</string>
-    <string name="vpa_title">Enter your VPA (UPI Address)</string>
-    <string name="upi_chooser_title">Choose UPI app</string>
-    <string name="proceed_to_pay">Proceed to Pay</string>
-    <string name="verify_vpa">Verify VPA</string>
 
     <string name="surepay_js">function surePayData(){var list = document.getElementsByTagName(\"input\");
                     "var map = {};
@@ -144,14 +137,8 @@
                     "map[list[i].name]=list[i].value;}
                     "PayU.surePayData(JSON.stringify(map));};
                     "surePayData();</string>
-    <string name="cb_verify">Verify</string>
-    <string name="cb_verify_and_proceed">Verify and Proceed to Pay</string>
-    <string name="cb_invalid_vpa">Invalid VPA</string>
 
     <!--MetaData-->
     <string name="cb_debug_enabled">cb_debug_enabled</string>
     <string name="payu_debug_mode_enabled">payu_debug_mode_enabled</string>
-    <string name="cb_logs_level">cb_logs_level</string>
-    <string name="payu_logs_level">payu_logs_level</string>
-    <string name="payu_logging_enabled">payu_logging_enabled</string>
 </resources>

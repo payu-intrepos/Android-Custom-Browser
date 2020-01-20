@@ -86,7 +86,7 @@
         android:layout_alignParentTop="true"
         android:max="100"
         android:progress="50"
-        android:progressDrawable="@drawable/cb_progress_bar"></ProgressBar>
+        android:progressDrawable="@drawable/cb_progress_bar" />
 
     <LinearLayout
         android:id="@+id/trans_overlay"

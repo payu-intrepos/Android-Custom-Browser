@@ -14,7 +14,7 @@
         android:paddingTop="20dp"
         android:text="@string/cb_registeration_detail"
         android:textColor="@color/cb_otpColor"
-        android:textSize="18sp"></TextView>
+        android:textSize="18sp" />
 
     <RelativeLayout
         style="@style/cb_relative_layout"

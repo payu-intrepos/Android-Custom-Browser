@@ -53,7 +53,7 @@
                     android:background="@android:color/white"
                     android:orientation="vertical"
                     android:paddingLeft="20dp"
-                    android:paddingRight="20dp"></LinearLayout>
+                    android:paddingRight="20dp" />
             </ScrollView>
         </RelativeLayout>
 
