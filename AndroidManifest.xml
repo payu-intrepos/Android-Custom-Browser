@@ -1,29 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.payu.custombrowser"
-    android:versionCode="40"
-    android:versionName="7.6.0">
+    android:versionCode="41"
+    android:versionName="7.6.1" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="27" />
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <!--Permission Disabled -->
-    <!--<uses-permission-->
-    <!--android:name="android.permission.RECEIVE_SMS"-->
-    <!--android:protectionLevel="signature" />-->
 
-    <application android:usesCleartextTraffic="false">
+    <!-- Permission Disabled -->
+    <!-- <uses-permission -->
+    <!-- android:name="android.permission.RECEIVE_SMS" -->
+    <!-- android:protectionLevel="signature" /> -->
+    <application android:usesCleartextTraffic="false" >
         <activity
-            android:name=".CBActivity"
+            android:name="com.payu.custombrowser.CBActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden" />
 
-        <service android:name=".services.SnoozeService" />
+        <service android:name="com.payu.custombrowser.services.SnoozeService" />
 
-        <activity
-            android:name=".PreLollipopPaymentsActivity">
-
+        <activity android:name="com.payu.custombrowser.PreLollipopPaymentsActivity" >
             <intent-filter>
-
                 <data android:scheme="${applicationId}.success" />
+
                 <action android:name="android.intent.action.VIEW" />
 
                 <category android:name="android.intent.category.DEFAULT" />
@@ -31,13 +33,14 @@
             </intent-filter>
             <intent-filter>
                 <data android:scheme="${applicationId}.failure" />
+
                 <action android:name="android.intent.action.VIEW" />
 
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
             </intent-filter>
         </activity>
-        <activity android:name=".PrePaymentsActivity" />
+        <activity android:name="com.payu.custombrowser.PrePaymentsActivity" />
     </application>
 
 </manifest>
