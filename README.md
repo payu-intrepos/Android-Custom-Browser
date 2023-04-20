@@ -1,5 +1,5 @@
 
-### Integration of Custom Browser (Latest version 7.11.5)
+### Integration of Custom Browser (Latest version 7.11.6)
 
 
 Go to this document:
